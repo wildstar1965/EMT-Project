@@ -1,0 +1,11 @@
+{
+  "stage": "smoke",
+  "passed": true,
+  "fusion_version": "2706.1.17",
+  "size_mm": [
+    10.0,
+    10.0,
+    10.0
+  ],
+  "volume_cm3": 1.0
+}

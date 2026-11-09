@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "kind": "demonstration_trajectory",
+  "created_utc": "2026-11-06T13:14:51.158930+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "frames": 560,
+  "duration_s": 28.0,
+  "dt_s": 0.05,
+  "electrical_verified": true,
+  "electrical_status": "Verified simulated operating point",
+  "source_model": "FEMM aligned + LTspice assumed nonideal resonant link",
+  "trajectory": {
+    "path": "results\\demo\\trajectory.csv",
+    "sha256": "85cd9eb115ab0199a58e26ee708c68ea715c5c1202115dab409f7fe1cc4736be"
+  },
+  "operating_point": {
+    "path": "results\\operating_point.json",
+    "sha256": "b1da1e4d95ad202a8876b9e81f5f00f119f4c3a9786c1bd36835ad60072a84e8"
+  },
+  "events": [
+    {
+      "at_s": 1.0,
+      "phone": {
+        "x_mm": -120,
+        "y_mm": 50,
+        "yaw_deg": 0.0
+      }
+    },
+    {
+      "at_s": 8.0,
+      "phone": {
+        "x_mm": 160,
+        "y_mm": -60,
+        "yaw_deg": 90
+      }
+    },
+    {
+      "at_s": 10.0,
+      "phone": {
+        "x_mm": -160,
+        "y_mm": -90,
+        "yaw_deg": 0.0
+      }
+    },
+    {
+      "at_s": 19.0,
+      "phone": {
+        "x_mm": 240,
+        "y_mm": 0,
+        "yaw_deg": 0.0
+      }
+    },
+    {
+      "at_s": 22.0,
+      "phone": null
+    },
+    {
+      "at_s": 24.0,
+      "phone": {
+        "x_mm": 0,
+        "y_mm": 0,
+        "yaw_deg": 0.0
+      }
+    }
+  ],
+  "states": [
+    "CHARGING",
+    "HOME",
+    "IDLE",
+    "POSITIONING",
+    "SETTLING",
+    "UNREACHABLE"
+  ],
+  "maximum_observed_speed_mm_s": 100.00000000000001
+}

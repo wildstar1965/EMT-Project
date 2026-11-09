@@ -1,0 +1,22 @@
+{
+  "palette_exists": true,
+  "palette_visible": true,
+  "retained_handlers": 5,
+  "sessions": 0,
+  "status": {
+    "state": "UNVERIFIED",
+    "power_w": 0.0,
+    "reason": "Assembly may have changed; run Place Phone to check alignment again"
+  },
+  "active_command": "SelectCommand",
+  "phone_pose": [
+    -154.68324661254883,
+    -36.15250587463379,
+    0.0
+  ],
+  "tx_mm": [
+    -154.68324660000002,
+    -36.15250590000001,
+    -7.6
+  ]
+}

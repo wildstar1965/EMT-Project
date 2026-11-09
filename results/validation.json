@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "kind": "project_validation",
+  "created_utc": "2026-11-06T13:27:01.953789+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "passed": true,
+  "checks": {
+    "femm_numerical_checks": true,
+    "nominal_electrical_evidence": true,
+    "waveform_crosscheck": true,
+    "field_export": true,
+    "cad_nine_pose_motion": true,
+    "fusion_replay": true,
+    "final_cad_export": true,
+    "tests": true
+  },
+  "test_counts": {
+    "tests": 16,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "nominal_power_w": 5.02969699403,
+  "flagged_sensitivity_cases": [
+    {
+      "name": "em_sweep_20",
+      "gap_mm": 12.0,
+      "frequency_hz": 110000.0,
+      "settled": true,
+      "energy_balance_relative_error": 0.02972652389137987,
+      "failure_reasons": [
+        "Power-balance residual is at least 2%"
+      ]
+    },
+    {
+      "name": "load_1000",
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "settled": false,
+      "energy_balance_relative_error": 0.002611402912734121,
+      "failure_reasons": [
+        "Output-voltage change between measurement windows is at least 0.5%; not settled"
+      ]
+    }
+  ],
+  "qualification_limits": [
+    "One face-up virtual phone; no Qi protocol or real battery model",
+    "Assumed ferrite and semiconductor models, not qualified components",
+    "Axisymmetric EM excludes gantry and phone-metal eddy currents",
+    "Furniture loading and physical thermal validation are excluded",
+    "Motor running-torque selection remains unqualified",
+    "Nine-pose interference sampling is not continuous swept-volume proof",
+    "Flagged sensitivity points are excluded from verified charging data"
+  ]
+}

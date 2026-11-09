@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "kind": "waveform_crosscheck",
+  "created_utc": "2026-11-06T12:59:48.177043+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "raw_output_power_w": 5.029697257664338,
+  "log_output_power_w": 5.02969699403,
+  "relative_error": 5.2415550788609266e-08,
+  "passed": true
+}

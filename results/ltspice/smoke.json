@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "kind": "ltspice_smoke",
+  "created_utc": "2026-11-06T10:55:57.847331+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "executed": true,
+  "passed": true,
+  "measurements": {
+    "at_tau": 0.632120370509
+  },
+  "artifacts": [
+    {
+      "path": "results\\ltspice\\rc_smoke.cir",
+      "sha256": "5fe8b8ca749a181037e0661015e173bf90d5889dff7dd40d2c2fd44e712bc8e0"
+    },
+    {
+      "path": "results\\ltspice\\rc_smoke.log",
+      "sha256": "ed6aba50df5cdc6cfa193f3ab827d0940d0e3ae3b51b65190a243865559fe27e"
+    },
+    {
+      "path": "results\\ltspice\\rc_smoke.raw",
+      "sha256": "67e4b2dc92d22e3260c9873ec446bec8d3fa66e08693c5dd53a2a6f30ed44add"
+    }
+  ]
+}

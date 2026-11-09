@@ -1,0 +1,1493 @@
+{
+  "schema_version": 1,
+  "kind": "ltspice_progress",
+  "created_utc": "2026-11-06T12:54:20.247559+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "cases": [
+    {
+      "name": "tune_00",
+      "supply_v": 6.25,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.22184199358,
+        "vout_previous": 4.22157861682,
+        "ripple": 0.0402616858482,
+        "pin": 4.3847342313,
+        "pout": 3.56482134216,
+        "itx": 0.772584346544,
+        "irx": 0.94047711627,
+        "vtx_peak": 23.4835636467,
+        "copper_core_loss": 0.113189732779,
+        "capacitor_loss": 0.0421169767977,
+        "switch_loss": 0.0481307285761,
+        "rectifier_loss": 0.580945163099,
+        "body_loss": 0.000277484814511,
+        "driver_loss": 0.0325520833335
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0006159369297483152,
+      "efficiency": 0.8130073920359571,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\tune_00.cir",
+          "sha256": "66ae70221453d8102c43c09480d8a8244b8dc80e23069c8d3025d7be700bf683"
+        },
+        {
+          "path": "results\\ltspice\\tune_00.log",
+          "sha256": "8e1219b63aeac2bf47f1ab85c8f20d7b64d74641cffd50c17fc42bd6dfbd1283"
+        },
+        {
+          "path": "results\\ltspice\\tune_00.raw",
+          "sha256": "bbee760cd6060d9c905d8af3cfc81a03907c9debc80435d9a1d445ed7bfde0f0"
+        }
+      ]
+    },
+    {
+      "name": "tune_01",
+      "supply_v": 9.125,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 6.17369174775,
+        "vout_previous": 6.173305016,
+        "ripple": 0.0587320029736,
+        "pin": 9.03149401487,
+        "pout": 7.62296038253,
+        "itx": 1.08971714588,
+        "irx": 1.37392339778,
+        "vtx_peak": 33.3738239557,
+        "copper_core_loss": 0.233698388223,
+        "capacitor_loss": 0.0876379707644,
+        "switch_loss": 0.0955616605363,
+        "rectifier_loss": 0.91774972851,
+        "body_loss": 0.000363970911955,
+        "driver_loss": 0.0693880208336
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0004577196811446536,
+      "efficiency": 0.844042012315913,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\tune_01.cir",
+          "sha256": "5e6400f989976b62822cdcb36a178037e6915b20818edc7f81c5468eb8763640"
+        },
+        {
+          "path": "results\\ltspice\\tune_01.log",
+          "sha256": "87a1e37977437734ad5d4c35ba29484e2de4c3bf1f8add7167b581148908990b"
+        },
+        {
+          "path": "results\\ltspice\\tune_01.raw",
+          "sha256": "553714912c6db433a95596eb32c748672876d6d8696f1e37ebc5cd9812204ed5"
+        }
+      ]
+    },
+    {
+      "name": "tune_02",
+      "supply_v": 7.6875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 5.19779529848,
+        "vout_previous": 5.19744810083,
+        "ripple": 0.0494780540466,
+        "pin": 6.50205689338,
+        "pout": 5.40346247219,
+        "itx": 0.931301082977,
+        "irx": 1.15720557034,
+        "vtx_peak": 28.4342001081,
+        "copper_core_loss": 0.168056617265,
+        "capacitor_loss": 0.0628191061478,
+        "switch_loss": 0.0698536040419,
+        "rectifier_loss": 0.744987011465,
+        "body_loss": 0.000319676974196,
+        "driver_loss": 0.0492480468753
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0005091248008263406,
+      "efficiency": 0.8310389405684036,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\tune_02.cir",
+          "sha256": "7771f6b493d67d851badccdf4f487f48d8037d6af9b87f9dd250d0102b4509bc"
+        },
+        {
+          "path": "results\\ltspice\\tune_02.log",
+          "sha256": "dc931264782145733eabe48a10280c6e02c8da91aafa8b724cd77fba984cf45e"
+        },
+        {
+          "path": "results\\ltspice\\tune_02.raw",
+          "sha256": "3b867438a16c2844c261e422a2a26b34fda508f5fa77b22cb04344982cedddd4"
+        }
+      ]
+    },
+    {
+      "name": "tune_03",
+      "supply_v": 6.96875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.70945222782,
+        "vout_previous": 4.70920428039,
+        "ripple": 0.0448618233204,
+        "pin": 5.39181381279,
+        "pout": 4.43582697798,
+        "itx": 0.85198749863,
+        "irx": 1.0487938039,
+        "vtx_peak": 25.959017694,
+        "copper_core_loss": 0.139268928443,
+        "capacitor_loss": 0.0519502980314,
+        "switch_loss": 0.058494132196,
+        "rectifier_loss": 0.661831815969,
+        "body_loss": 0.000298762763702,
+        "driver_loss": 0.0404695638021
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0006812797571170722,
+      "efficiency": 0.8226966160177324,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\tune_03.cir",
+          "sha256": "640d5fd4b03cf77df12788a9f76da1b80719824a5b4bd2d8ab43c746353c082e"
+        },
+        {
+          "path": "results\\ltspice\\tune_03.log",
+          "sha256": "9f73330afa98e4decf52a685dbfb02ff4005b349398e15b598272d27710a1150"
+        },
+        {
+          "path": "results\\ltspice\\tune_03.raw",
+          "sha256": "0ed1ff6b6fd93853cebe74b3b31c678942150020e2516f5350341cfc49c85f9f"
+        }
+      ]
+    },
+    {
+      "name": "tune_04",
+      "supply_v": 7.328125,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.95351327812,
+        "vout_previous": 4.95324124898,
+        "ripple": 0.0473182499409,
+        "pin": 5.93388142826,
+        "pout": 4.90750176047,
+        "itx": 0.891640442877,
+        "irx": 1.10298714874,
+        "vtx_peak": 27.2131332457,
+        "copper_core_loss": 0.153321657446,
+        "capacitor_loss": 0.0572551681849,
+        "switch_loss": 0.064048780152,
+        "rectifier_loss": 0.703136826406,
+        "body_loss": 0.000310355896296,
+        "driver_loss": 0.0447511800131
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0005992198756737194,
+      "efficiency": 0.8270306408716078,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\tune_04.cir",
+          "sha256": "7459f3f1d22c37148e75e1cc0947e23177f460e4ef1ee5917284e5155626566a"
+        },
+        {
+          "path": "results\\ltspice\\tune_04.log",
+          "sha256": "a1792ea2a01c9c33843218ddcd22c7785b27c6854915fbbd4f5b4e6a80f343aa"
+        },
+        {
+          "path": "results\\ltspice\\tune_04.raw",
+          "sha256": "ba930a7281ad038f4194177627d42a1bb07a113115a9c653e8d6a7d769d8f966"
+        }
+      ]
+    },
+    {
+      "name": "tune_05",
+      "supply_v": 7.5078125,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 5.075792105,
+        "vout_previous": 5.0755020029,
+        "ripple": 0.0483542382717,
+        "pin": 6.21490327168,
+        "pout": 5.15277820516,
+        "itx": 0.911489212829,
+        "irx": 1.13009863793,
+        "vtx_peak": 27.8135933876,
+        "copper_core_loss": 0.160607851117,
+        "capacitor_loss": 0.0600046490913,
+        "switch_loss": 0.0669210856546,
+        "rectifier_loss": 0.724030290874,
+        "body_loss": 0.000313964796192,
+        "driver_loss": 0.0469727071127
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0005268815508568682,
+      "efficiency": 0.8291003061367215,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\tune_05.cir",
+          "sha256": "fe39af1e129ac90b4ca41ac98ca3a80dc4326ed5aae00d9c0c0386d4ceaeaffb"
+        },
+        {
+          "path": "results\\ltspice\\tune_05.log",
+          "sha256": "8eb6c42e5db93ef315b51ec650b08026a3fad96b56a77bdeb4aea45468ecac8c"
+        },
+        {
+          "path": "results\\ltspice\\tune_05.raw",
+          "sha256": "ebc442966ff30ce400c1a819f2f0ce0947ff93c93d486265a4a06b516bd776e4"
+        }
+      ]
+    },
+    {
+      "name": "tune_06",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 5.01480455659,
+        "vout_previous": 5.01449748037,
+        "ripple": 0.0477712452412,
+        "pin": 6.07366544689,
+        "pout": 5.02969699403,
+        "itx": 0.901572559411,
+        "irx": 1.11655890997,
+        "vtx_peak": 27.5024130344,
+        "copper_core_loss": 0.156947210898,
+        "capacitor_loss": 0.0586227838444,
+        "switch_loss": 0.0654773017292,
+        "rectifier_loss": 0.713568560195,
+        "body_loss": 0.000311463084214,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0005245458705034725,
+      "efficiency": 0.8281155816057402,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\tune_06.cir",
+          "sha256": "c375d42ae70e9c63b6e704094938f2f2ecdd11d7f97aa6f7f191b103f14ccb58"
+        },
+        {
+          "path": "results\\ltspice\\tune_06.log",
+          "sha256": "342a7d8f98d9782e54ba94088cd47a1170f334e60c074da3a939aea345ffdf3d"
+        },
+        {
+          "path": "results\\ltspice\\tune_06.raw",
+          "sha256": "56c8c249e7b7c9e55ef1d2e5bb83b048bb5670d7c9220c93a501a835984a1a24"
+        }
+      ]
+    },
+    {
+      "name": "nominal",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 5.01480455659,
+        "vout_previous": 5.01449748037,
+        "ripple": 0.0477712452412,
+        "pin": 6.07366544689,
+        "pout": 5.02969699403,
+        "itx": 0.901572559411,
+        "irx": 1.11655890997,
+        "vtx_peak": 27.5024130344,
+        "copper_core_loss": 0.156947210898,
+        "capacitor_loss": 0.0586227838444,
+        "switch_loss": 0.0654773017292,
+        "rectifier_loss": 0.713568560195,
+        "body_loss": 0.000311463084214,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0005245458705034725,
+      "efficiency": 0.8281155816057402,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\nominal.cir",
+          "sha256": "c375d42ae70e9c63b6e704094938f2f2ecdd11d7f97aa6f7f191b103f14ccb58"
+        },
+        {
+          "path": "results\\ltspice\\nominal.log",
+          "sha256": "528c29bdbe9e49e3fdc978fc839f7fe7347eb566c8d836e77a66bf24c90d73bd"
+        },
+        {
+          "path": "results\\ltspice\\nominal.raw",
+          "sha256": "47aec681d4f21da955e38f9c175676c3bbac6926a236b38b678ac2efd986be45"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_06",
+      "supply_v": 7.41796875,
+      "gap_mm": 4.0,
+      "frequency_hz": 110000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 3.82652706177,
+        "vout_previous": 3.82650460402,
+        "ripple": 0.0444214046001,
+        "pin": 3.65272049438,
+        "pout": 2.92850149651,
+        "itx": 0.577685716062,
+        "irx": 0.893166596588,
+        "vtx_peak": 25.2721111774,
+        "copper_core_loss": 0.0840196078166,
+        "capacitor_loss": 0.0345709885612,
+        "switch_loss": 0.0272737760464,
+        "rectifier_loss": 0.524977021266,
+        "body_loss": 0.00726245300716,
+        "driver_loss": 0.0458552169798
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 7.116180754588608e-05,
+      "efficiency": 0.801731613742615,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_06.cir",
+          "sha256": "c853f5d4b6a1c575b0059955e289d710386e1ea1357b5cd9c136e36b91897ad9"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_06.log",
+          "sha256": "d5f9af3d6bd76e13cf60d3964a6fbac531eaf4dbe3ce5de4068771c32156e4bc"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_06.raw",
+          "sha256": "901ef9d20ce97a8f93fdd33061887d5f0e9fecf9b71072c916406e058aef755d"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_07",
+      "supply_v": 7.41796875,
+      "gap_mm": 4.0,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 3.03912097373,
+        "vout_previous": 3.03888247431,
+        "ripple": 0.0334675610065,
+        "pin": 2.37324119562,
+        "pout": 1.84726888784,
+        "itx": 0.40784414015,
+        "irx": 0.682938578045,
+        "vtx_peak": 16.1078970432,
+        "copper_core_loss": 0.0532724601169,
+        "capacitor_loss": 0.0186905863887,
+        "switch_loss": 0.0133142907209,
+        "rectifier_loss": 0.394818252845,
+        "body_loss": 9.14388384168e-05,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 2.946944888960061e-05,
+      "efficiency": 0.7783738506011432,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_07.cir",
+          "sha256": "854a8ba9c2df5506fe2ecdd552c4bf4f9d18990761d33b16b509f46cd58f15a7"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_07.log",
+          "sha256": "b76a1780d95da7bb943c9e2ee4eb8f2df69db9f65b03b65499620eea7bbb34d2"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_07.raw",
+          "sha256": "d67be227d9b4849d138beb8c714dd9a5db057ee06856f7d6c6ae158e3365d5ae"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_08",
+      "supply_v": 7.41796875,
+      "gap_mm": 4.0,
+      "frequency_hz": 205000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 3.92681232558,
+        "vout_previous": 3.9267432558,
+        "ripple": 0.0430233776569,
+        "pin": 3.90473275201,
+        "pout": 3.08401057824,
+        "itx": 0.650329535865,
+        "irx": 0.914260840401,
+        "vtx_peak": 17.3760404885,
+        "copper_core_loss": 0.135046974195,
+        "capacitor_loss": 0.0379617385858,
+        "switch_loss": 0.0362937986582,
+        "rectifier_loss": 0.540302240078,
+        "body_loss": 0.00951289735577,
+        "driver_loss": 0.0458552169796
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.004033389457837561,
+      "efficiency": 0.7898134838171639,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_08.cir",
+          "sha256": "44ff07436d269a57aa0f6577e3ae5eda64fa06f30f033cc54e18f5400957f34f"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_08.log",
+          "sha256": "ebde792765ceb4920de5ddac11bc48f2b1e64b0b74225e22ef5cc3ca4ef283eb"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_08.raw",
+          "sha256": "385061df4d131a59b70ff24c8d0788deaf031e8bebce18689775a8a9294d90d7"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_09",
+      "supply_v": 7.41796875,
+      "gap_mm": 6.0,
+      "frequency_hz": 110000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.58816963551,
+        "vout_previous": 4.58817122361,
+        "ripple": 0.0711808353662,
+        "pin": 5.27566162481,
+        "pout": 4.2103926978,
+        "itx": 0.929290951896,
+        "irx": 1.24414602884,
+        "vtx_peak": 32.0055570602,
+        "copper_core_loss": 0.172527523589,
+        "capacitor_loss": 0.0812061974886,
+        "switch_loss": 0.0691112927496,
+        "rectifier_loss": 0.695720437896,
+        "body_loss": 0.000971874152941,
+        "driver_loss": 0.0458552169798
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 2.343134467905857e-05,
+      "efficiency": 0.7980786102731967,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_09.cir",
+          "sha256": "4e5507978997eb3f9d6d0ebf05e0cb18380c54aa0de8acee27756944a52d60b3"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_09.log",
+          "sha256": "5a550d3d5cb1d3ba64b3fdcedcae110cb7274b61472503ad5df0c24ed797c53d"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_09.raw",
+          "sha256": "47258c2f04aa4709e3fbb5fd6d4dee07bba4e90fcdde2620b424c47bd5ea19b8"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_10",
+      "supply_v": 7.41796875,
+      "gap_mm": 6.0,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 3.67217948052,
+        "vout_previous": 3.67187556902,
+        "ripple": 0.0370310842991,
+        "pin": 3.35540537937,
+        "pout": 2.69700367434,
+        "itx": 0.512662502952,
+        "irx": 0.816561735863,
+        "vtx_peak": 18.4000163078,
+        "copper_core_loss": 0.0720825487558,
+        "capacitor_loss": 0.0270131648358,
+        "switch_loss": 0.0210638055175,
+        "rectifier_loss": 0.492058586513,
+        "body_loss": 1.09579532931e-05,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 9.460093148765183e-05,
+      "efficiency": 0.8037787895680075,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_10.cir",
+          "sha256": "e357639e7c766a3f986a68b4a8b9f77561a05545863123cbf78ea7a67e21a3f9"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_10.log",
+          "sha256": "38659d86ea4e8601238b1c33b279f56ac3162dd78c350f0205f06dfd9c723e03"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_10.raw",
+          "sha256": "2d71be6dcc367554f57e5385b438f2b5b73a6aa132df77111d7e7c6f9fc6b92f"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_11",
+      "supply_v": 7.41796875,
+      "gap_mm": 6.0,
+      "frequency_hz": 205000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.62106834687,
+        "vout_previous": 4.62124219543,
+        "ripple": 0.0486855208874,
+        "pin": 5.24266532483,
+        "pout": 4.27090536287,
+        "itx": 0.798636486086,
+        "irx": 1.06556723024,
+        "vtx_peak": 20.7528390884,
+        "copper_core_loss": 0.167726301453,
+        "capacitor_loss": 0.052666040701,
+        "switch_loss": 0.0510168294706,
+        "rectifier_loss": 0.65466685444,
+        "body_loss": -3.8489998215e-05,
+        "driver_loss": 0.0458552169797
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 2.5328926768575933e-05,
+      "efficiency": 0.8146439069155132,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_11.cir",
+          "sha256": "fdeb6add26f6cd575e8351aaa3f65f0beafa9e80214a446a06ffc3815d7cc6d9"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_11.log",
+          "sha256": "43d1a9c97d2f141d45d524c65459e042e03378b53dfdc9d46e8a7ad9ea504401"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_11.raw",
+          "sha256": "829b4bf96c43b35974914636330d289ad1380879c26c720e61737309dd84686f"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_12",
+      "supply_v": 7.41796875,
+      "gap_mm": 8.0,
+      "frequency_hz": 110000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 3.30138809417,
+        "vout_previous": 3.30134299563,
+        "ripple": 0.0371955633163,
+        "pin": 2.92936453388,
+        "pout": 2.1798611989,
+        "itx": 0.864450142523,
+        "irx": 0.767280446442,
+        "vtx_peak": 21.7235829234,
+        "copper_core_loss": 0.0986163074849,
+        "capacitor_loss": 0.0379256881065,
+        "switch_loss": 0.0694935711904,
+        "rectifier_loss": 0.439233869765,
+        "body_loss": 0.0366530140526,
+        "driver_loss": 0.0458552169798
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.007416512062438295,
+      "efficiency": 0.7441413226959267,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_12.cir",
+          "sha256": "a27a1ce12d7219878492a560bbf6d7ba68e7c8da994d9ec0ab7414a6b18e2666"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_12.log",
+          "sha256": "1cc4188f678aa7bfe8f5c8b23e0f4f434471fd59d957c8ddea34a519bc0fb980"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_12.raw",
+          "sha256": "088068ce487bcb30f4ea75a9ae6cd2e4a16819527f4fb2815ac5fb244d259ea9"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_13",
+      "supply_v": 7.41796875,
+      "gap_mm": 8.0,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.49231811443,
+        "vout_previous": 4.49200460988,
+        "ripple": 0.0434868633747,
+        "pin": 4.91188428686,
+        "pout": 4.0362193285,
+        "itx": 0.729877656657,
+        "irx": 0.999123053132,
+        "vtx_peak": 23.5948333293,
+        "copper_core_loss": 0.116485453559,
+        "capacitor_loss": 0.0439331098763,
+        "switch_loss": 0.0427809936831,
+        "rectifier_loss": 0.625205399296,
+        "body_loss": 9.79321444803e-05,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0002660593663446789,
+      "efficiency": 0.821725246927634,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_13.cir",
+          "sha256": "5eec1e17644b696c2eabd9ebf785419539bf68b79479686b71ac1c6468ba2122"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_13.log",
+          "sha256": "0a2da62778036963d79c86a5371313e3c0e14cc13fe45356513390abb5a660cf"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_13.raw",
+          "sha256": "f4975d578aa41b71daaefb7fc46f478cb3f1544cf714ff43641f28359265019e"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_14",
+      "supply_v": 7.41796875,
+      "gap_mm": 8.0,
+      "frequency_hz": 205000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.99074059699,
+        "vout_previous": 4.99074700676,
+        "ripple": 0.0501835048199,
+        "pin": 6.09395920871,
+        "pout": 4.98155324273,
+        "itx": 0.948369144053,
+        "irx": 1.14021489558,
+        "vtx_peak": 23.6752996445,
+        "copper_core_loss": 0.198767818471,
+        "capacitor_loss": 0.0639896361112,
+        "switch_loss": 0.0730013927344,
+        "rectifier_loss": 0.716117887741,
+        "body_loss": 0.0143661104429,
+        "driver_loss": 0.0458552169796
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 5.052601918630508e-05,
+      "efficiency": 0.8174575956481535,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_14.cir",
+          "sha256": "8d143f327db858e4dfc057dd489bda43233185a47c99d2bd614f196c06c390a3"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_14.log",
+          "sha256": "563f097959490fd7e3d833b66fa66225946f88697920daacdd155199c15a1bc0"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_14.raw",
+          "sha256": "9097057a75a78edf91f234e91ee6bc88b8b3469945215bc6718f29ab07f8f057"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_15",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 110000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 2.49298231013,
+        "vout_previous": 2.49297172573,
+        "ripple": 0.0256984233856,
+        "pin": 1.82641929723,
+        "pout": 1.24300288039,
+        "itx": 0.805448104797,
+        "irx": 0.553476427897,
+        "vtx_peak": 17.5691753626,
+        "copper_core_loss": 0.0721539897384,
+        "capacitor_loss": 0.0255869437318,
+        "switch_loss": 0.0634473650865,
+        "rectifier_loss": 0.312498996227,
+        "body_loss": 0.0403472196709,
+        "driver_loss": 0.0458552169797
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.01288131670607142,
+      "efficiency": 0.6805681927885748,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_15.cir",
+          "sha256": "9ff4a543d1dda38d619496246d0488e710b2689d2c7fadd71dd6332361469ef9"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_15.log",
+          "sha256": "3d8be8a025c1765142c2555073564a5048346696ba079bdd2d2b3b76b29c8a24"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_15.raw",
+          "sha256": "4d967808fbaebdbfd2894593c567f2044ee80d19235f54e96378ea4146917a29"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_16",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 205000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.9146704875,
+        "vout_previous": 4.91474075772,
+        "ripple": 0.048846155405,
+        "pin": 5.95013889623,
+        "pout": 4.83084704933,
+        "itx": 0.99766783132,
+        "irx": 1.11446824479,
+        "vtx_peak": 23.7277841568,
+        "copper_core_loss": 0.200511969914,
+        "capacitor_loss": 0.0641087450948,
+        "switch_loss": 0.0817738643689,
+        "rectifier_loss": 0.701211538504,
+        "body_loss": 0.0251620057065,
+        "driver_loss": 0.0458552169797
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.00011235138267510445,
+      "efficiency": 0.8118881144759188,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_16.cir",
+          "sha256": "db7b752238beb02a622bfd434af1b434930bbd105db71193d6dff2b4cb659453"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_16.log",
+          "sha256": "22b30939e88fc5cf5283f680a58a61b3dae01dfe5718e44998a875f8058676b6"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_16.raw",
+          "sha256": "617170b77c31d9d689a3d559235c79be9fde87de645c510302648b5bba3adb7a"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_17",
+      "supply_v": 7.41796875,
+      "gap_mm": 10.0,
+      "frequency_hz": 110000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 2.02688859157,
+        "vout_previous": 2.02691889186,
+        "ripple": 0.020058453083,
+        "pin": 1.3147339359,
+        "pout": 0.821661395689,
+        "itx": 0.764759167925,
+        "irx": 0.443122359633,
+        "vtx_peak": 15.8283576594,
+        "copper_core_loss": 0.0597511609433,
+        "capacitor_loss": 0.02047849907,
+        "switch_loss": 0.0582033568151,
+        "rectifier_loss": 0.245253703161,
+        "body_loss": 0.0401436534051,
+        "driver_loss": 0.0458552169798
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.017788351846786832,
+      "efficiency": 0.6249640123014946,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_17.cir",
+          "sha256": "fd58c45425c2d264ba87adaa0f02b5297934dd9dc8a7ac692aefb6c79de0b3dc"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_17.log",
+          "sha256": "49120121fefbc77a0ae1a42da4d25ff4782c3c4e5d98a74cb9c134a488d7ec37"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_17.raw",
+          "sha256": "0603bbc8341b4bec9d3f6288737003aec14563a1225eab938271d4c9cedf79e7"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_18",
+      "supply_v": 7.41796875,
+      "gap_mm": 10.0,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 5.47748585552,
+        "vout_previous": 5.4772253898,
+        "ripple": 0.0519408583641,
+        "pin": 7.2205539438,
+        "pout": 6.00062344864,
+        "itx": 1.07381387042,
+        "irx": 1.22098658162,
+        "vtx_peak": 31.8674726486,
+        "copper_core_loss": 0.202428233897,
+        "capacitor_loss": 0.0747099719358,
+        "switch_loss": 0.0940440518122,
+        "rectifier_loss": 0.794072239199,
+        "body_loss": 0.000922855794085,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0010938115833199335,
+      "efficiency": 0.8310475200856985,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_18.cir",
+          "sha256": "0ee731ee8a89700eab57ec067e6058e311124926d82d0bba4ef05a09697e00f9"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_18.log",
+          "sha256": "40a299827f9aee8b81fce4529521ba109ae78366f7d05ee8c6fff3107f4a2d49"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_18.raw",
+          "sha256": "fd36856c6d71ebd42c7dd534dee68ceac7bb10783e91114841b8e19d903ac86c"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_19",
+      "supply_v": 7.41796875,
+      "gap_mm": 10.0,
+      "frequency_hz": 205000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.71588235337,
+        "vout_previous": 4.71601056519,
+        "ripple": 0.0465245842934,
+        "pin": 5.53386156421,
+        "pout": 4.44795220801,
+        "itx": 1.01653063472,
+        "irx": 1.06169535983,
+        "vtx_peak": 23.9092877596,
+        "copper_core_loss": 0.193363930189,
+        "capacitor_loss": 0.0610535421636,
+        "switch_loss": 0.0852791450603,
+        "rectifier_loss": 0.665549298082,
+        "body_loss": 0.03352333519,
+        "driver_loss": 0.0458552169797
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.00023218660613235552,
+      "efficiency": 0.8037700539487526,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_19.cir",
+          "sha256": "55ec3b0e3b70ddcb4b8ce94b2029044c4a41bd65e98a573aa7c0406a427d457b"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_19.log",
+          "sha256": "f440a190e765185d0f6d8a74002f8a51b3265b5e3b79925bdaa18bf720fe94b2"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_19.raw",
+          "sha256": "c6e6934b17cecd30907c779a6c5c4b1cb1a61a89ed2812514a6f2372278bc2dd"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_20",
+      "supply_v": 7.41796875,
+      "gap_mm": 12.0,
+      "frequency_hz": 110000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 1.37992956534,
+        "vout_previous": 1.37992716957,
+        "ripple": 0.0129563212395,
+        "pin": 0.755540125178,
+        "pout": 0.380843476269,
+        "itx": 0.703589344745,
+        "irx": 0.29828766455,
+        "vtx_peak": 14.1428041458,
+        "copper_core_loss": 0.045397482987,
+        "capacitor_loss": 0.0149792812635,
+        "switch_loss": 0.0499209731279,
+        "rectifier_loss": 0.157651909449,
+        "body_loss": 0.0384322035206,
+        "driver_loss": 0.045855216979
+      },
+      "settled": true,
+      "time_step_refined": true,
+      "numerical_checks_passed": false,
+      "energy_balance_relative_error": 0.02972652389137987,
+      "efficiency": 0.5040678364756286,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_20.cir",
+          "sha256": "12bd5762bca65eba84cfdc40faba94e5c75ced7a01fc236c8716ac559cce9f8b"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_20.log",
+          "sha256": "440d74769a9d77253b4657c7faab6c3a0f133d006558c5ac4517a923e5a24a5d"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_20.raw",
+          "sha256": "e6ef0566a153258634c7b6eef6ec7b065f1b96334d4e539faf4459137b1bb802"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_21",
+      "supply_v": 7.41796875,
+      "gap_mm": 12.0,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 6.566509849,
+        "vout_previous": 6.56609542916,
+        "ripple": 0.0615268051624,
+        "pin": 10.3784742037,
+        "pout": 8.6238889564,
+        "itx": 1.56265227713,
+        "irx": 1.46775382936,
+        "vtx_peak": 42.1916618347,
+        "copper_core_loss": 0.357692274137,
+        "capacitor_loss": 0.127632554909,
+        "switch_loss": 0.198952268264,
+        "rectifier_loss": 0.991470456887,
+        "body_loss": 0.0167459372533,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.001564443727548233,
+      "efficiency": 0.8309399616106886,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_21.cir",
+          "sha256": "0b5d59a5d18f1ca74401147ee8a1df3ed7d02489464c1b6a7aee310fde6a040e"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_21.log",
+          "sha256": "821bea67cb241259ba17a6da23bee4010b7719096387cea5a93a160d3bb31e5b"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_21.raw",
+          "sha256": "91eceef2672e6b2ed1548cd92ac418d49e24a19c6af91f60448d63fcee24e017"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_22",
+      "supply_v": 7.41796875,
+      "gap_mm": 12.0,
+      "frequency_hz": 205000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.02888031345,
+        "vout_previous": 4.02888079276,
+        "ripple": 0.037874430418,
+        "pin": 4.19043432551,
+        "pout": 3.24640197081,
+        "itx": 1.01684070195,
+        "irx": 0.892669205138,
+        "vtx_peak": 23.6904571134,
+        "copper_core_loss": 0.165465493319,
+        "capacitor_loss": 0.0501429105187,
+        "switch_loss": 0.0856454957384,
+        "rectifier_loss": 0.548560149894,
+        "body_loss": 0.0473964684847,
+        "driver_loss": 0.0458552169796
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.00023067293042048357,
+      "efficiency": 0.7747173010317717,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_22.cir",
+          "sha256": "3b02cd3cbc02b970b5f86b3cf8fe1349343a154758c6b8d3a15b27e35d6e3e4f"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_22.log",
+          "sha256": "47cab4cf4057d99c403cd61a39c4bd691af4c04df30c52ef7001c7bf9711047f"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_22.raw",
+          "sha256": "93b6951d7f43cf77eee534de65c76470ac2ce7a9cea1f32a8c3995a84efa9456"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_23",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 5.0389365773,
+        "vout_previous": 5.03861667267,
+        "ripple": 0.0478979945183,
+        "pin": 6.13338646695,
+        "pout": 5.07822083968,
+        "itx": 0.910776319338,
+        "irx": 1.12195087,
+        "vtx_peak": 27.7233311981,
+        "copper_core_loss": 0.160787833478,
+        "capacitor_loss": 0.0594108465617,
+        "switch_loss": 0.0668833180004,
+        "rectifier_loss": 0.717742166102,
+        "body_loss": 0.000369109097468,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0006712665299043745,
+      "efficiency": 0.8279636163552057,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_23.cir",
+          "sha256": "b2be606e805f188397fe0a731366ef708a50d92ded693f0f6aa4e0e962b4051c"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_23.log",
+          "sha256": "877786f5af9ef69220a2adc0172cbd01fe03b3b9054607b7188bb32054b25acd"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_23.raw",
+          "sha256": "8ddee37fbc020cb45c187ab66b5f1f23c6db5d09812d93778a039c73e272d0e3"
+        }
+      ]
+    },
+    {
+      "name": "em_sweep_24",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 5.00623494976,
+        "vout_previous": 5.00595825708,
+        "ripple": 0.0477134883404,
+        "pin": 6.05366106801,
+        "pout": 5.0125215759,
+        "itx": 0.898504161276,
+        "irx": 1.11469337883,
+        "vtx_peak": 27.432492733,
+        "copper_core_loss": 0.155658042195,
+        "capacitor_loss": 0.0583573379107,
+        "switch_loss": 0.0650145279719,
+        "rectifier_loss": 0.712161105653,
+        "body_loss": 0.000295054067877,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0006274231888194826,
+      "efficiency": 0.8280149019885168,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\em_sweep_24.cir",
+          "sha256": "249bded9bad2358337c995c9b6a200a3b21dd553b20a464d3b2b2bafca741167"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_24.log",
+          "sha256": "a2dd477fda41859b3e6ba5d0cd684ad31f0d1c9495737a4dc0b744aa57f74823"
+        },
+        {
+          "path": "results\\ltspice\\em_sweep_24.raw",
+          "sha256": "31722339f820514f8f42c11886f1086e4dac265dc9e0a961db5c772ffbb4ed8f"
+        }
+      ]
+    },
+    {
+      "name": "load_2.5",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 2.5,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 2.56132276047,
+        "vout_previous": 2.56132269894,
+        "ripple": 0.0466043055058,
+        "pin": 3.5784847066,
+        "pout": 2.62422887273,
+        "itx": 0.528857048522,
+        "irx": 1.12638812026,
+        "vtx_peak": 20.2402992249,
+        "copper_core_loss": 0.10985046253,
+        "capacitor_loss": 0.0451240116508,
+        "switch_loss": 0.0225039003144,
+        "rectifier_loss": 0.728776408885,
+        "body_loss": 0.00152934370638,
+        "driver_loss": 0.0458552169803
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.00017227677457527934,
+      "efficiency": 0.7333352208799404,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\load_2.5.cir",
+          "sha256": "3b7f58cab84756186cfb78ef726c226c9c79677d46e6f75aeb7a9433aa01c994"
+        },
+        {
+          "path": "results\\ltspice\\load_2.5.log",
+          "sha256": "44c23abd80414404aa98a3f221611d8d63c79afd025f8800343db98545da6073"
+        },
+        {
+          "path": "results\\ltspice\\load_2.5.raw",
+          "sha256": "5387553dae0174dea558d419ffb9bb301571f8f2b114f7186c80229de12cf9b1"
+        }
+      ]
+    },
+    {
+      "name": "load_10",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 10.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 9.48994445542,
+        "vout_previous": 9.45243503786,
+        "ripple": 0.0588242709637,
+        "pin": 10.409966677,
+        "pout": 9.00593509047,
+        "itx": 1.58469246422,
+        "irx": 1.10780925029,
+        "vtx_peak": 42.494394958,
+        "copper_core_loss": 0.310358073015,
+        "capacitor_loss": 0.103175222087,
+        "switch_loss": 0.208010665964,
+        "rectifier_loss": 0.679947853784,
+        "body_loss": 0.0308513737732,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.002481581519725308,
+      "efficiency": 0.8651262170096955,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\load_10.cir",
+          "sha256": "b02af5fa76fa43d09435248b8e8294758fbc590f3181e0dc9c5acb8cdba926c2"
+        },
+        {
+          "path": "results\\ltspice\\load_10.log",
+          "sha256": "30ef74bc8d2ad40011fb1e0a5c8e5843af389202ba643cfbc5bf7b42ea9cc197"
+        },
+        {
+          "path": "results\\ltspice\\load_10.raw",
+          "sha256": "7b2fe5af88c89f4be45f09002dbade1a538583db388da025912383730b90f500"
+        }
+      ]
+    },
+    {
+      "name": "load_1000",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 1000.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 40.2823454756,
+        "vout_previous": 38.9582952214,
+        "ripple": 0.00332567095757,
+        "pin": 37.8277737917,
+        "pout": 1.62266735805,
+        "itx": 5.9340252114,
+        "irx": 1.06369394553,
+        "vtx_peak": 133.88025856,
+        "copper_core_loss": 3.28268783687,
+        "capacitor_loss": 0.908635944208,
+        "switch_loss": 2.95216801516,
+        "rectifier_loss": 28.8075476832,
+        "body_loss": 0.10942817857,
+        "driver_loss": 0.0458552169801
+      },
+      "settled": false,
+      "time_step_refined": false,
+      "numerical_checks_passed": false,
+      "energy_balance_relative_error": 0.002611402912734121,
+      "efficiency": 0.04289618963530015,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\load_1000.cir",
+          "sha256": "cc9f91a44561d46c09f5dbc5697948720aa7563d2a639b42433709e39222406f"
+        },
+        {
+          "path": "results\\ltspice\\load_1000.log",
+          "sha256": "a5824e5dd758d2f4a816595298777dbde62c1a0b7e75d872355cb69fecab29ed"
+        },
+        {
+          "path": "results\\ltspice\\load_1000.raw",
+          "sha256": "80c30044c25f12c57a7881aad22accd29f8e9011da857f1b5fab5f59c4f7a4a6"
+        }
+      ]
+    },
+    {
+      "name": "capacitors_0.95",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 0.95,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.95975155259,
+        "vout_previous": 4.95961418809,
+        "ripple": 0.0464290678501,
+        "pin": 5.9485054639,
+        "pout": 4.91986968497,
+        "itx": 0.884631649241,
+        "irx": 1.10307831064,
+        "vtx_peak": 28.2239108086,
+        "copper_core_loss": 0.152201031236,
+        "capacitor_loss": 0.0568819742733,
+        "switch_loss": 0.0633682019346,
+        "rectifier_loss": 0.703943017044,
+        "body_loss": 0.000583539391392,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0009755052097915559,
+      "efficiency": 0.8270766018166186,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\capacitors_0.95.cir",
+          "sha256": "f6efebc47c59a9a62021ee9bf5b0d8363083cc79a4951a6ee9c69d04643b1547"
+        },
+        {
+          "path": "results\\ltspice\\capacitors_0.95.log",
+          "sha256": "5508f32c05ca9e71decceb5340c3f55007b92634e407b9e99e6f9105334920ca"
+        },
+        {
+          "path": "results\\ltspice\\capacitors_0.95.raw",
+          "sha256": "145a03f167f306e905eed96e5ea45d511a9f575d5a9e59407abdbfbb4fcbed9a"
+        }
+      ]
+    },
+    {
+      "name": "capacitors_1.05",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.05,
+      "resistance_scale": 1.0,
+      "measurements": {
+        "options": 0.0,
+        "vout": 5.10048848368,
+        "vout_previous": 5.10009809595,
+        "ripple": 0.0494880378246,
+        "pin": 6.27546554519,
+        "pout": 5.20304326979,
+        "itx": 0.930476940148,
+        "irx": 1.13840277107,
+        "vtx_peak": 27.0972568318,
+        "copper_core_loss": 0.165046381763,
+        "capacitor_loss": 0.0616101946242,
+        "switch_loss": 0.069477512,
+        "rectifier_loss": 0.728845908493,
+        "body_loss": 0.000133919415677,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.00023155925460175992,
+      "efficiency": 0.8291087302324547,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\capacitors_1.05.cir",
+          "sha256": "d4ccee054e08caa018e47a6d000986435a4df3d08b177da2092d99f9ed7b7014"
+        },
+        {
+          "path": "results\\ltspice\\capacitors_1.05.log",
+          "sha256": "a01407682ea83000191c7c1e2acea8356230467a45a1fad64a132f09080c1f38"
+        },
+        {
+          "path": "results\\ltspice\\capacitors_1.05.raw",
+          "sha256": "c2361c8560b62503cc286e1c2e7d02f01f0072ece7b299624a240f6ce5a3a385"
+        }
+      ]
+    },
+    {
+      "name": "loss_allowance_1p5",
+      "supply_v": 7.41796875,
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "load_ohm": 5.0,
+      "capacitance_scale": 1.0,
+      "resistance_scale": 1.5,
+      "measurements": {
+        "options": 0.0,
+        "vout": 4.98308858649,
+        "vout_previous": 4.98276668334,
+        "ripple": 0.0474829375744,
+        "pin": 6.08201927713,
+        "pout": 4.96627788076,
+        "itx": 0.902658473919,
+        "irx": 1.10955950209,
+        "vtx_peak": 27.5239682198,
+        "copper_core_loss": 0.234134213958,
+        "capacitor_loss": 0.0581953186079,
+        "switch_loss": 0.0656118347854,
+        "rectifier_loss": 0.708200723277,
+        "body_loss": 0.000294027465431,
+        "driver_loss": 0.0458552169802
+      },
+      "settled": true,
+      "time_step_refined": false,
+      "numerical_checks_passed": true,
+      "energy_balance_relative_error": 0.0005672558962517569,
+      "efficiency": 0.8165508286753574,
+      "artifacts": [
+        {
+          "path": "results\\ltspice\\loss_allowance_1p5.cir",
+          "sha256": "fe27c1cb342a3b63a75e6722aba31fdd8284851d40f37ea12991c21953e6a2a4"
+        },
+        {
+          "path": "results\\ltspice\\loss_allowance_1p5.log",
+          "sha256": "1820d1115565095d51e2317afe1f0776ae3928a969b11e481395d2f38354e499"
+        },
+        {
+          "path": "results\\ltspice\\loss_allowance_1p5.raw",
+          "sha256": "0dbddb05f41d61c12a051ed40c58410470cf2821df1e2708f53f152dc82fdd97"
+        }
+      ]
+    }
+  ]
+}

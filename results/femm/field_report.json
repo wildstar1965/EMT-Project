@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "kind": "femm_field_export",
+  "created_utc": "2026-11-06T12:58:55.899580+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "passed": true,
+  "samples": 2640,
+  "excitation_current_a": 1.0,
+  "source": {
+    "path": "results\\femm\\nominal_ac_tx.ans",
+    "sha256": "e5c1e544bd8279ccd643e89be944958220c08df91fdb28bf79891818198dd02b"
+  },
+  "field_data": {
+    "path": "results\\femm\\field_samples.csv",
+    "sha256": "1950cf6f171d81f0f9f812c1b4998625330878ef4c554e771da5d43c5d490b01"
+  },
+  "maximum_sampled_phasor_norm_t": 0.010836662445657813
+}

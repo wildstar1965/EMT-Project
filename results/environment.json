@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "kind": "environment_inventory",
+  "created_utc": "2026-11-06T10:50:55.895141+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "python": "3.14.5",
+  "platform": "Windows-11-10.0.26340-SP0",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pillow": "13.0.0",
+    "pytest": "9.2.0",
+    "pyfemm": "0.1.3",
+    "pywin32": "312"
+  },
+  "ltspice": "C:\\Users\\tejar\\AppData\\Local\\Programs\\ADI\\LTspice\\LTspice.exe",
+  "femm_executable_present": true,
+  "fusion_executables": [
+    "C:\\Users\\tejar\\AppData\\Local\\Autodesk\\webdeploy\\production\\39e8a3d5e919c70b05ef3ebfe9c6bfc8d9ee001e\\Fusion360.exe"
+  ],
+  "note": "Executable presence is not a successful solver or Fusion API run."
+}

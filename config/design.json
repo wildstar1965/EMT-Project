@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "name": "AirDesk 600x400 demonstrator",
+  "table": {"width_mm": 600.0, "depth_mm": 400.0, "thickness_mm": 5.0, "height_mm": 200.0, "elastic_modulus_pa": 3200000000.0, "poisson_ratio": 0.35, "density_kg_m3": 1180.0},
+  "mechanical": {"extrusion_mm": 20.0, "x_travel_mm": 400.0, "y_travel_mm": 240.0, "x_rail_mm": 500.0, "y_rail_mm": 350.0, "y_rail_spacing_mm": 510.0, "carrier_mm": 75.0, "top_clearance_mm": 2.0, "sag_tolerance_allowance_mm": 0.5, "speed_mm_s": 100.0, "accel_mm_s2": 300.0, "alignment_tolerance_mm": 2.0, "settle_s": 0.5, "belt_pitch_mm": 2.0, "pulley_teeth": 20, "motor_steps_rev": 200, "microsteps": 16, "assumed_moving_mass_kg": 2.0, "assumed_drag_n": 5.0, "drive_efficiency": 0.9, "torque_margin": 2.0},
+  "phone": {"width_mm": 80.0, "length_mm": 160.0, "thickness_mm": 9.0, "mass_kg": 0.25, "receiver_offset_x_mm": 0.0, "receiver_offset_y_mm": 0.0, "receiver_depth_mm": 1.5},
+  "tx": {"outer_radius_mm": 25.0, "inner_radius_mm": 10.0, "turns": 15, "thickness_mm": 1.2, "strands": 100, "strand_diameter_mm": 0.08, "ferrite_radius_mm": 30.0, "ferrite_thickness_mm": 1.0},
+  "rx": {"outer_radius_mm": 20.0, "inner_radius_mm": 8.0, "turns": 12, "thickness_mm": 1.0, "strands": 80, "strand_diameter_mm": 0.08, "ferrite_radius_mm": 23.0, "ferrite_thickness_mm": 1.0},
+  "em": {"gaps_mm": [4.0, 6.0, 8.0, 9.1, 10.0, 12.0], "frequencies_hz": [110000.0, 150000.0, 205000.0], "nominal_frequency_hz": 150000.0, "ferrite_mu_r_assumed": 2000.0, "ferrite_loss_angle_deg_assumed": 1.0, "ferrite_insulation_mm": 0.2, "boundary_mm": 150.0, "mesh_mm": 0.3},
+  "electrical": {"supply_max_v": 12.0, "target_v": 5.0, "load_ohm": 5.0, "voltage_tolerance_fraction": 0.05, "capacitor_esr_ohm": 0.025, "switch_ron_ohm": 0.04, "deadtime_s": 0.0000001, "output_cap_f": 0.0001, "driver_load_ohm": 1200.0, "extra_winding_loss_factor": 1.25},
+  "limitations": ["One face-up virtual phone; no Qi protocol or real battery model", "Assumed ferrite and semiconductor models, not qualified components", "Axisymmetric EM excludes gantry and phone-metal eddy currents", "Furniture loading and physical thermal validation are excluded"]
+}

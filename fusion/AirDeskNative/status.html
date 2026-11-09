@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+html,body{background:#13212b}body{font:12px system-ui,sans-serif;color:#eaf3f8;margin:14px;line-height:1.4}
+h1{font-size:21px;margin:0}#state{color:#ffc077;font-size:17px;font-weight:650;margin-top:14px}
+#power{font-size:30px;font-weight:650;margin:6px 0}dl{display:grid;grid-template-columns:1fr 1fr;gap:5px}dd{margin:0;text-align:right}
+button{width:100%;padding:11px;background:#76ddcb;color:#13212b;border:0;border-radius:5px;font-weight:650;cursor:pointer}
+.note{color:#a9becd;font-size:11px}#reason{min-height:35px}#source{overflow-wrap:anywhere}
+</style></head><body>
+<h1>AirDesk</h1><div class="note">Native Fusion placement · simulation</div>
+<div id="state">UNVERIFIED</div><div id="power">0.00 W</div>
+<dl><dt>Alignment error</dt><dd id="error">—</dd><dt>Coil gap</dt><dd id="gap">—</dd><dt>Carriage X / Y</dt><dd id="xy">—</dd></dl>
+<p id="reason">Run Place Phone to check this assembly.</p>
+<button onclick="adsk.fusionSendData('place','{}')">Place Phone</button>
+<p class="note">Select the tabletop, then Move phone. Other model commands invalidate this result.</p>
+<p class="note">Power is simulated into a 5 Ω equivalent receiver load. No Qi communication or battery charging is modelled.</p>
+<p id="checked" class="note">No validated placement yet</p>
+<details class="note"><summary>Result source</summary><p id="source">No applicable operating point</p></details>
+<script>
+const put=(id,text)=>document.getElementById(id).textContent=text;
+window.fusionJavaScriptHandler={handle(action,data){
+ if(action==='status'){
+  const s=JSON.parse(data);put('state',s.state==='CHARGING'?'SIMULATED CHARGING':s.state);
+  put('power',Number(s.power_w||0).toFixed(2)+' W');
+  document.getElementById('state').style.color=s.state==='CHARGING'?'#76ddcb':'#ffc077';
+  put('error',s.alignment_error_mm==null?'—':s.alignment_error_mm.toFixed(3)+' mm');
+  put('gap',s.gap_mm==null?'—':s.gap_mm.toFixed(3)+' mm');
+  put('xy',s.measured_tx_mm?s.measured_tx_mm.slice(0,2).map(x=>x.toFixed(1)).join(' / ')+' mm':'—');
+  put('reason',s.reason||'');
+  put('checked',s.created_utc?'Last placement check: '+new Date(s.created_utc).toLocaleString():'No validated placement yet');
+  put('source',s.operating_point?'FEMM + LTspice · '+s.operating_point.path+' · SHA256 '+s.operating_point.sha256:'No applicable verified operating point displayed');
+ }
+ return 'OK';
+}};
+window.addEventListener('load',()=>adsk.fusionSendData('ready','{}'));
+</script></body></html>

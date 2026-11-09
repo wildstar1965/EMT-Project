@@ -1,0 +1,16 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\Users\tejar\OneDrive\Desktop\AIrdesk\results\ltspice\rc_smoke.cir
+Start Time: Fri Nov  6 16:25:57 2026
+solver = Normal
+Maximum thread count: 18
+tnom = 27
+temp = 27
+method = trap
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 0.160 seconds.
+Total iterations: 10046
+
+Files loaded:
+C:\Users\tejar\OneDrive\Desktop\AIrdesk\results\ltspice\rc_smoke.cir
+
+at_tau: V(out)=0.632120370509 at 0.001

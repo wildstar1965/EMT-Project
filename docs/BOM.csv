@@ -1,0 +1,28 @@
+Subsystem,Item,Quantity,Reference specification,Qualification
+Structure,Frame extrusion,1 set,2020 aluminium; cut lengths from CAD,Concept envelopes; joints and fastening detail pending
+Structure,Tabletop,1,600 x 400 x 5 mm clear acrylic,Analytical phone-only load estimate
+Motion,X linear guide and block,1 set,500 mm MGN12-size guide,Exact vendor bearing selection pending
+Motion,Y linear guides and blocks,2 sets,350 mm MGN12-size guides,Exact vendor bearing selection pending
+Motion,Bridge,1,550 x 40 x 20 mm reference section,CAD envelope
+Motion,Nonconductive coil carrier,1,75 x 75 x 2 mm plate,Material and fastening detail pending
+Motion,Stepper motors,2,NEMA17 envelope; at least 0.079 Nm running torque with stated assumptions,No verified vendor torque curve
+Motion,Stepper drivers,2,TMC2209-class current-regulated drivers,Current and cooling selection pending
+Motion,GT2 belts,3 runs,2 mm pitch; 6 mm nominal width,Belt tooth and wrap detail omitted in CAD
+Motion,Drive pulleys,3,20 tooth nominal,Two synchronized Y pulleys and one X pulley
+Motion,Idlers,3,Matching belt profile,Vendor bearing selection pending
+Motion,Y synchronization shaft,1,8 mm diameter reference shaft,Shaft seating and coupling detail pending
+Motion,Y shaft bearings,2,8 mm bore class,Represented by clearance envelopes
+Motion,X extension shaft and coupling,1 set,5 mm shaft; dropped motor mount,Additional bearing and critical-speed verification pending
+Motion,Mounts and brackets,1 set,Reference geometry in Fusion,Manufacturing drawings pending
+Control,End switches,4,Two per axis,Virtual homing only in this version
+Control,Controller,1,ESP32-class future hardware,Simulated in Python
+Power,Transmitter winding,1,15 turn 20-50 mm winding pack; 100 x 0.08 mm strand assumption,Simulated; not purchased coil specification
+Power,Receiver winding,1,12 turn 16-40 mm winding pack; 80 x 0.08 mm strand assumption,Generic equivalent receiver
+Power,Transmitter ferrite,1,60 mm diameter x 1 mm,Assumed mu_r 2000 and 1 degree loss angle
+Power,Receiver ferrite,1,46 mm diameter x 1 mm,Assumed material
+Power,Compensation capacitors,2,Values calculated from nominal FEMM inductances at 150 kHz,ESR and voltage/current ratings require real part selection
+Power,Full bridge and drive circuit,1 set,Representative switch and diode models,Not a Qi transmitter
+Power,Receiver rectifier and filter,1 set,Schottky bridge and 100 uF output capacitor,Generic SPICE models
+Power,Equivalent DC receiver load,1,5 ohm nominal,Simulation load; not a phone battery
+Power,DC supplies and protection,1 set,Motor supply plus adjustable charging bus up to 12 V,No physical safety or thermal qualification
+Wiring,Cable chains and flexible wiring,1 set,Two-axis moving harness,Clearance envelopes only

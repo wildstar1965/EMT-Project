@@ -1,0 +1,120 @@
+{
+  "samples": [
+    {
+      "command_mm": [
+        -200.0,
+        -120.0
+      ],
+      "measured_tx_mm": [
+        -200.0,
+        -120.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    },
+    {
+      "command_mm": [
+        -200.0,
+        0
+      ],
+      "measured_tx_mm": [
+        -200.0,
+        0.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    },
+    {
+      "command_mm": [
+        -200.0,
+        120.0
+      ],
+      "measured_tx_mm": [
+        -200.0,
+        120.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    },
+    {
+      "command_mm": [
+        0,
+        -120.0
+      ],
+      "measured_tx_mm": [
+        0.0,
+        -120.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    },
+    {
+      "command_mm": [
+        0,
+        0
+      ],
+      "measured_tx_mm": [
+        0.0,
+        0.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    },
+    {
+      "command_mm": [
+        0,
+        120.0
+      ],
+      "measured_tx_mm": [
+        0.0,
+        120.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    },
+    {
+      "command_mm": [
+        200.0,
+        -120.0
+      ],
+      "measured_tx_mm": [
+        200.0,
+        -120.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    },
+    {
+      "command_mm": [
+        200.0,
+        0
+      ],
+      "measured_tx_mm": [
+        200.0,
+        0.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    },
+    {
+      "command_mm": [
+        200.0,
+        120.0
+      ],
+      "measured_tx_mm": [
+        200.0,
+        120.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    }
+  ],
+  "moving_interferences": [],
+  "passed": true,
+  "exclusions": [
+    "Fixed subassembly mating volumes",
+    "Belt/clamp contact envelopes",
+    "Cable-chain clearance envelopes",
+    "Phone internals"
+  ]
+}

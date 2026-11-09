@@ -1,0 +1,996 @@
+{
+  "passed": true,
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "trajectory_samples": 560,
+  "wall_duration_s": 89.63376740005333,
+  "frames": [
+    {
+      "frame": "frame_0000.png",
+      "time_s": 0.05,
+      "state": "HOME",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0004.png",
+      "time_s": 0.25,
+      "state": "HOME",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0008.png",
+      "time_s": 0.44999999999999996,
+      "state": "HOME",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0012.png",
+      "time_s": 0.65,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0016.png",
+      "time_s": 0.8500000000000002,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0020.png",
+      "time_s": 1.0500000000000003,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0024.png",
+      "time_s": 1.2500000000000004,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.2308138345441918e-08
+    },
+    {
+      "frame": "frame_0028.png",
+      "time_s": 1.4500000000000006,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.4377022104000205e-08
+    },
+    {
+      "frame": "frame_0032.png",
+      "time_s": 1.6500000000000008,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.9705921665826897e-08
+    },
+    {
+      "frame": "frame_0036.png",
+      "time_s": 1.850000000000001,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.376151722987239e-08
+    },
+    {
+      "frame": "frame_0040.png",
+      "time_s": 2.0500000000000007,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.260704202169394e-08
+    },
+    {
+      "frame": "frame_0044.png",
+      "time_s": 2.25,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.119801076506784e-08
+    },
+    {
+      "frame": "frame_0048.png",
+      "time_s": 2.4499999999999993,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 1.4813943455993088e-08
+    },
+    {
+      "frame": "frame_0052.png",
+      "time_s": 2.6499999999999986,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 6.349785315043572e-08
+    },
+    {
+      "frame": "frame_0056.png",
+      "time_s": 2.849999999999998,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 3.356152208008462e-08
+    },
+    {
+      "frame": "frame_0060.png",
+      "time_s": 3.049999999999997,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.079615765908439e-08
+    },
+    {
+      "frame": "frame_0064.png",
+      "time_s": 3.2499999999999964,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 3.3509501577040365e-08
+    },
+    {
+      "frame": "frame_0068.png",
+      "time_s": 3.4499999999999957,
+      "state": "SETTLING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0072.png",
+      "time_s": 3.649999999999995,
+      "state": "SETTLING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0076.png",
+      "time_s": 3.8499999999999943,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0080.png",
+      "time_s": 4.049999999999994,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0084.png",
+      "time_s": 4.249999999999993,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0088.png",
+      "time_s": 4.449999999999992,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0092.png",
+      "time_s": 4.6499999999999915,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0096.png",
+      "time_s": 4.849999999999991,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0100.png",
+      "time_s": 5.04999999999999,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0104.png",
+      "time_s": 5.249999999999989,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0108.png",
+      "time_s": 5.449999999999989,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0112.png",
+      "time_s": 5.649999999999988,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0116.png",
+      "time_s": 5.849999999999987,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0120.png",
+      "time_s": 6.0499999999999865,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0124.png",
+      "time_s": 6.249999999999986,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0128.png",
+      "time_s": 6.449999999999985,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0132.png",
+      "time_s": 6.649999999999984,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0136.png",
+      "time_s": 6.849999999999984,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0140.png",
+      "time_s": 7.049999999999983,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0144.png",
+      "time_s": 7.249999999999982,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0148.png",
+      "time_s": 7.4499999999999815,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0152.png",
+      "time_s": 7.649999999999981,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0156.png",
+      "time_s": 7.84999999999998,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0160.png",
+      "time_s": 8.04999999999998,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0164.png",
+      "time_s": 8.249999999999982,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 5.2363214513833644e-08
+    },
+    {
+      "frame": "frame_0168.png",
+      "time_s": 8.449999999999985,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.802253317881761e-08
+    },
+    {
+      "frame": "frame_0172.png",
+      "time_s": 8.649999999999988,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.143944832132885e-08
+    },
+    {
+      "frame": "frame_0176.png",
+      "time_s": 8.84999999999999,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.0322630235655763e-08
+    },
+    {
+      "frame": "frame_0180.png",
+      "time_s": 9.049999999999994,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 5.845951977336083e-08
+    },
+    {
+      "frame": "frame_0184.png",
+      "time_s": 9.249999999999996,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.751198688560411e-08
+    },
+    {
+      "frame": "frame_0188.png",
+      "time_s": 9.45,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 3.34110890587949e-08
+    },
+    {
+      "frame": "frame_0192.png",
+      "time_s": 9.650000000000002,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.4636646905903515e-08
+    },
+    {
+      "frame": "frame_0196.png",
+      "time_s": 9.850000000000005,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.078907339442567e-08
+    },
+    {
+      "frame": "frame_0200.png",
+      "time_s": 10.050000000000008,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.2600249203318533e-08
+    },
+    {
+      "frame": "frame_0204.png",
+      "time_s": 10.25000000000001,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.264376781961201e-08
+    },
+    {
+      "frame": "frame_0208.png",
+      "time_s": 10.450000000000014,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.333328458854061e-08
+    },
+    {
+      "frame": "frame_0212.png",
+      "time_s": 10.650000000000016,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.324598310388038e-08
+    },
+    {
+      "frame": "frame_0216.png",
+      "time_s": 10.85000000000002,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 3.9594834842933895e-08
+    },
+    {
+      "frame": "frame_0220.png",
+      "time_s": 11.050000000000022,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.594476491114871e-08
+    },
+    {
+      "frame": "frame_0224.png",
+      "time_s": 11.250000000000025,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 5.534919021827504e-08
+    },
+    {
+      "frame": "frame_0228.png",
+      "time_s": 11.450000000000028,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.8800562424476626e-08
+    },
+    {
+      "frame": "frame_0232.png",
+      "time_s": 11.65000000000003,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 5.364597654545349e-08
+    },
+    {
+      "frame": "frame_0236.png",
+      "time_s": 11.850000000000033,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 1.3905399684063116e-08
+    },
+    {
+      "frame": "frame_0240.png",
+      "time_s": 12.050000000000036,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.932316383832987e-08
+    },
+    {
+      "frame": "frame_0244.png",
+      "time_s": 12.250000000000039,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 6.156708022151517e-08
+    },
+    {
+      "frame": "frame_0248.png",
+      "time_s": 12.450000000000042,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.670841101518983e-08
+    },
+    {
+      "frame": "frame_0252.png",
+      "time_s": 12.650000000000045,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 1.3255463007012835e-08
+    },
+    {
+      "frame": "frame_0256.png",
+      "time_s": 12.850000000000048,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.0830560934567405e-08
+    },
+    {
+      "frame": "frame_0260.png",
+      "time_s": 13.05000000000005,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 5.4371779103365215e-08
+    },
+    {
+      "frame": "frame_0264.png",
+      "time_s": 13.250000000000053,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 5.549132063150438e-08
+    },
+    {
+      "frame": "frame_0268.png",
+      "time_s": 13.450000000000056,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.5788293040219794e-08
+    },
+    {
+      "frame": "frame_0272.png",
+      "time_s": 13.650000000000059,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.2692625553193955e-08
+    },
+    {
+      "frame": "frame_0276.png",
+      "time_s": 13.850000000000062,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 5.1274233191506835e-08
+    },
+    {
+      "frame": "frame_0280.png",
+      "time_s": 14.050000000000065,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.578142671537052e-08
+    },
+    {
+      "frame": "frame_0284.png",
+      "time_s": 14.250000000000068,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.075961279551747e-08
+    },
+    {
+      "frame": "frame_0288.png",
+      "time_s": 14.45000000000007,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 3.321109919236921e-08
+    },
+    {
+      "frame": "frame_0292.png",
+      "time_s": 14.650000000000073,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 1.3130863795529156e-08
+    },
+    {
+      "frame": "frame_0296.png",
+      "time_s": 14.850000000000076,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 1.9312380756679992e-08
+    },
+    {
+      "frame": "frame_0300.png",
+      "time_s": 15.050000000000079,
+      "state": "SETTLING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0304.png",
+      "time_s": 15.250000000000082,
+      "state": "SETTLING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0308.png",
+      "time_s": 15.450000000000085,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0312.png",
+      "time_s": 15.650000000000087,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0316.png",
+      "time_s": 15.85000000000009,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0320.png",
+      "time_s": 16.050000000000093,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0324.png",
+      "time_s": 16.250000000000096,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0328.png",
+      "time_s": 16.4500000000001,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0332.png",
+      "time_s": 16.6500000000001,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0336.png",
+      "time_s": 16.850000000000104,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0340.png",
+      "time_s": 17.050000000000107,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0344.png",
+      "time_s": 17.25000000000011,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0348.png",
+      "time_s": 17.450000000000113,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0352.png",
+      "time_s": 17.650000000000116,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0356.png",
+      "time_s": 17.85000000000012,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0360.png",
+      "time_s": 18.05000000000012,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0364.png",
+      "time_s": 18.250000000000124,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0368.png",
+      "time_s": 18.450000000000127,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0372.png",
+      "time_s": 18.65000000000013,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0376.png",
+      "time_s": 18.850000000000133,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0380.png",
+      "time_s": 19.050000000000136,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0384.png",
+      "time_s": 19.25000000000014,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0388.png",
+      "time_s": 19.45000000000014,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0392.png",
+      "time_s": 19.650000000000144,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0396.png",
+      "time_s": 19.850000000000147,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0400.png",
+      "time_s": 20.05000000000015,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0404.png",
+      "time_s": 20.250000000000153,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0408.png",
+      "time_s": 20.450000000000156,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0412.png",
+      "time_s": 20.65000000000016,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0416.png",
+      "time_s": 20.85000000000016,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0420.png",
+      "time_s": 21.050000000000164,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0424.png",
+      "time_s": 21.250000000000167,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0428.png",
+      "time_s": 21.45000000000017,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0432.png",
+      "time_s": 21.650000000000173,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0436.png",
+      "time_s": 21.850000000000176,
+      "state": "UNREACHABLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0440.png",
+      "time_s": 22.05000000000018,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0444.png",
+      "time_s": 22.25000000000018,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0448.png",
+      "time_s": 22.450000000000184,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0452.png",
+      "time_s": 22.650000000000187,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0456.png",
+      "time_s": 22.85000000000019,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0460.png",
+      "time_s": 23.050000000000193,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0464.png",
+      "time_s": 23.250000000000195,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0468.png",
+      "time_s": 23.4500000000002,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0472.png",
+      "time_s": 23.6500000000002,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0476.png",
+      "time_s": 23.850000000000204,
+      "state": "IDLE",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0480.png",
+      "time_s": 24.050000000000207,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0484.png",
+      "time_s": 24.25000000000021,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.4112852626856194e-08
+    },
+    {
+      "frame": "frame_0488.png",
+      "time_s": 24.450000000000212,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.1181372980474805e-08
+    },
+    {
+      "frame": "frame_0492.png",
+      "time_s": 24.650000000000215,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 3.0139973748424864e-08
+    },
+    {
+      "frame": "frame_0496.png",
+      "time_s": 24.850000000000218,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.0525037010417978e-08
+    },
+    {
+      "frame": "frame_0500.png",
+      "time_s": 25.05000000000022,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 3.9712493190936784e-08
+    },
+    {
+      "frame": "frame_0504.png",
+      "time_s": 25.250000000000224,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 5.452227546385664e-09
+    },
+    {
+      "frame": "frame_0508.png",
+      "time_s": 25.450000000000227,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.6918956101548885e-08
+    },
+    {
+      "frame": "frame_0512.png",
+      "time_s": 25.65000000000023,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 2.2830988842183466e-08
+    },
+    {
+      "frame": "frame_0516.png",
+      "time_s": 25.850000000000232,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 4.0406680977062057e-08
+    },
+    {
+      "frame": "frame_0520.png",
+      "time_s": 26.050000000000235,
+      "state": "POSITIONING",
+      "power_w": 0.0,
+      "error_mm": 5.122509386923295e-08
+    },
+    {
+      "frame": "frame_0524.png",
+      "time_s": 26.250000000000238,
+      "state": "SETTLING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0528.png",
+      "time_s": 26.45000000000024,
+      "state": "SETTLING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0532.png",
+      "time_s": 26.650000000000244,
+      "state": "SETTLING",
+      "power_w": 0.0,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0536.png",
+      "time_s": 26.850000000000247,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0540.png",
+      "time_s": 27.05000000000025,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0544.png",
+      "time_s": 27.250000000000252,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0548.png",
+      "time_s": 27.450000000000255,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0552.png",
+      "time_s": 27.650000000000258,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0556.png",
+      "time_s": 27.85000000000026,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    },
+    {
+      "frame": "frame_0559.png",
+      "time_s": 28.000000000000263,
+      "state": "CHARGING",
+      "power_w": 5.02969699403,
+      "error_mm": 0.0
+    }
+  ],
+  "maximum_position_error_mm": 6.349785315043572e-08
+}

@@ -1,0 +1,883 @@
+{
+  "schema_version": 1,
+  "kind": "femm_progress",
+  "created_utc": "2026-11-06T10:55:53.976109+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "cases": [
+    {
+      "name": "air_reference",
+      "gap_mm": 9.1,
+      "frequency_hz": 0,
+      "ferrite": false,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 1,
+      "ltx_h": 8.326455494479402e-06,
+      "lrx_h": 4.246671520551869e-06,
+      "mutual_h": 2.219718176359102e-06,
+      "k": 0.3732874773732118,
+      "rtx_ohm": 0.05657327586206902,
+      "rrx_ohm": 0.04525862068965512,
+      "mutual_impedance_real_ohm": 0.0,
+      "reciprocity_relative_error": 1.4025761844335644e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\air_reference_tx.fem",
+          "sha256": "035b2fd70c82802bacb22ed77976c8c2317aa3efe4e6b2f422290fa1c8c7988d"
+        },
+        {
+          "path": "results\\femm\\air_reference_tx.ans",
+          "sha256": "c0ecbfa67fcc18e688d4e495403da83ee12fb25ffd766d66587ab15fad944dd1"
+        },
+        {
+          "path": "results\\femm\\air_reference_rx.fem",
+          "sha256": "2b4ab62b1b27aa7a8746bb5f8f852a2475be595d11d655f7032b91ab6856dcea"
+        },
+        {
+          "path": "results\\femm\\air_reference_rx.ans",
+          "sha256": "a89ffda713aeecbebd80c163bb2eeee9405834d5fd0e190aa3784676a1d2abc6"
+        }
+      ]
+    },
+    {
+      "name": "nominal_coarse",
+      "gap_mm": 9.1,
+      "frequency_hz": 0,
+      "ferrite": true,
+      "mesh_mm": 0.6,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.639576903058327e-05,
+      "lrx_h": 8.452007335371585e-06,
+      "mutual_h": 6.215852734157877e-06,
+      "k": 0.5280254898267996,
+      "rtx_ohm": 0.05657327586206896,
+      "rrx_ohm": 0.04525862068965515,
+      "mutual_impedance_real_ohm": 0.0,
+      "reciprocity_relative_error": 1.3227769462067966e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\nominal_coarse_tx.fem",
+          "sha256": "8b388b96d57ca7e9c396d07a5816a3fc3e23d8af42585edefbbb5f8462aecab6"
+        },
+        {
+          "path": "results\\femm\\nominal_coarse_tx.ans",
+          "sha256": "769f768eaa63b8f5bffab3cf0a1a2f2fc8c78fd6f5f8207cee94c1cdb45df2c3"
+        },
+        {
+          "path": "results\\femm\\nominal_coarse_rx.fem",
+          "sha256": "061ab6d2c47cbfd0d4d39b0b61c654d99a3f99b3d67a607d9d19d723711099f8"
+        },
+        {
+          "path": "results\\femm\\nominal_coarse_rx.ans",
+          "sha256": "90ad1eb31044fa08b10e37544d7d64452fb721a9aa46c38e64481846a8ac49eb"
+        }
+      ]
+    },
+    {
+      "name": "nominal_medium",
+      "gap_mm": 9.1,
+      "frequency_hz": 0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.640562832059797e-05,
+      "lrx_h": 8.46531407591983e-06,
+      "mutual_h": 6.217242413025648e-06,
+      "k": 0.5275696810813731,
+      "rtx_ohm": 0.056573275862069,
+      "rrx_ohm": 0.04525862068965516,
+      "mutual_impedance_real_ohm": 0.0,
+      "reciprocity_relative_error": 1.1973178284879182e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\nominal_medium_tx.fem",
+          "sha256": "af8071cdb8e3c5e50400ea3f8d9bb7a8c03c915c4247d700f7df155a275c5115"
+        },
+        {
+          "path": "results\\femm\\nominal_medium_tx.ans",
+          "sha256": "e566ca855ef2a8487015be93ab544626bea806fdc425b1470ccf74d14ed7aa36"
+        },
+        {
+          "path": "results\\femm\\nominal_medium_rx.fem",
+          "sha256": "d4bf9c8b044c67f00a9676679f0a63962022d637a2614a6f7a03465c6f18dddb"
+        },
+        {
+          "path": "results\\femm\\nominal_medium_rx.ans",
+          "sha256": "bf048b759eee72004ffd0f414dbb3b2631834e3a88e3d90630ae759aa8b8abc1"
+        }
+      ]
+    },
+    {
+      "name": "nominal_fine",
+      "gap_mm": 9.1,
+      "frequency_hz": 0,
+      "ferrite": true,
+      "mesh_mm": 0.15,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.642898918849586e-05,
+      "lrx_h": 8.474936899791276e-06,
+      "mutual_h": 6.226039589073874e-06,
+      "k": 0.527640616733277,
+      "rtx_ohm": 0.05657327586206905,
+      "rrx_ohm": 0.04525862068965517,
+      "mutual_impedance_real_ohm": 0.0,
+      "reciprocity_relative_error": 3.3057858440990233e-06,
+      "artifacts": [
+        {
+          "path": "results\\femm\\nominal_fine_tx.fem",
+          "sha256": "c2120727f11604fc775e7be8728343fd5ef48f397041612e2704b02ffc260c35"
+        },
+        {
+          "path": "results\\femm\\nominal_fine_tx.ans",
+          "sha256": "b08855d054f69247aa970d3b182d201f99c9912f28602c09e73a0a493b5fecbb"
+        },
+        {
+          "path": "results\\femm\\nominal_fine_rx.fem",
+          "sha256": "a539a89735a23dac21cfbeb81e35034f46ddc70fc1cefae25ed804b17e7f22b3"
+        },
+        {
+          "path": "results\\femm\\nominal_fine_rx.ans",
+          "sha256": "a65d7ae9f1346dcaa558d1014189f8aa47627b8e80a1b9775d0250aa96450a7e"
+        }
+      ]
+    },
+    {
+      "name": "boundary_check",
+      "gap_mm": 9.1,
+      "frequency_hz": 0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 300,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.639030853117314e-05,
+      "lrx_h": 8.457041440691972e-06,
+      "mutual_h": 6.207043073537012e-06,
+      "k": 0.5272079680387398,
+      "rtx_ohm": 0.05657327586206895,
+      "rrx_ohm": 0.04525862068965517,
+      "mutual_impedance_real_ohm": 0.0,
+      "reciprocity_relative_error": 1.2542720696750331e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\boundary_check_tx.fem",
+          "sha256": "a7ea1ebee2056ebc6fdc24788d013746703c6bc051b19953033fdd276acbac2c"
+        },
+        {
+          "path": "results\\femm\\boundary_check_tx.ans",
+          "sha256": "f5413923651888e6c4856b090d7a80ec84f37c785cb6c13070d1b8f813a48c4c"
+        },
+        {
+          "path": "results\\femm\\boundary_check_rx.fem",
+          "sha256": "72b1f39f5f0d219085611a1c1121b8fd2dd40025c14098f1ebe112fbe3016060"
+        },
+        {
+          "path": "results\\femm\\boundary_check_rx.ans",
+          "sha256": "363a7ba032311e712efff0fb79b42dc34252f37df9291bcecd12bfc9c6a9873d"
+        }
+      ]
+    },
+    {
+      "name": "nominal_ac",
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.640527238651465e-05,
+      "lrx_h": 8.465139392769879e-06,
+      "mutual_h": 6.2171527966164696e-06,
+      "k": 0.5275732429565316,
+      "rtx_ohm": 0.07694452271346539,
+      "rrx_ohm": 0.0551871073506823,
+      "mutual_impedance_real_ohm": 0.006724050851321516,
+      "reciprocity_relative_error": 1.1972785167442166e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\nominal_ac_tx.fem",
+          "sha256": "b9fbff1c2179d036a9e0be0c8567a03d700c01bb7abd555953de3742b55ce5c1"
+        },
+        {
+          "path": "results\\femm\\nominal_ac_tx.ans",
+          "sha256": "e5c1e544bd8279ccd643e89be944958220c08df91fdb28bf79891818198dd02b"
+        },
+        {
+          "path": "results\\femm\\nominal_ac_rx.fem",
+          "sha256": "ac23848a353585d13fb951ab173c768df590571665d3ad2371a4949ba9debf05"
+        },
+        {
+          "path": "results\\femm\\nominal_ac_rx.ans",
+          "sha256": "df85c79c521de1948b558268663dcf1b884fca3912fb72c85f35210e619ede9d"
+        }
+      ]
+    },
+    {
+      "name": "gap_4_f_110000",
+      "gap_mm": 4.0,
+      "frequency_hz": 110000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 2.095781095613454e-05,
+      "lrx_h": 1.16103725371505e-05,
+      "mutual_h": 1.2326630426095696e-05,
+      "k": 0.7902205845305385,
+      "rtx_ohm": 0.07661010044452175,
+      "rrx_ohm": 0.05604170508052406,
+      "mutual_impedance_real_ohm": 0.01075168142318894,
+      "reciprocity_relative_error": 1.5865093501996244e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_4_f_110000_tx.fem",
+          "sha256": "21baaba2cef029dd2e79d4c8234be2326f0e6a35ae3620a0a8fd3c6906bb4f55"
+        },
+        {
+          "path": "results\\femm\\gap_4_f_110000_tx.ans",
+          "sha256": "700b6572b4d03f1276fc08005c2de298847b2720b2752fd0741d2bc8bda276e6"
+        },
+        {
+          "path": "results\\femm\\gap_4_f_110000_rx.fem",
+          "sha256": "c92d3aeee7a99f7bfaa82752f1ef73156432dbdc920e3ae7a5f3120b31e5b73e"
+        },
+        {
+          "path": "results\\femm\\gap_4_f_110000_rx.ans",
+          "sha256": "98df73b1e9706413b9510d1d653b7bebe42c1b3ad88c5f22247a75df3f6189a9"
+        }
+      ]
+    },
+    {
+      "name": "gap_4_f_150000",
+      "gap_mm": 4.0,
+      "frequency_hz": 150000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 2.095752008219517e-05,
+      "lrx_h": 1.161021551891147e-05,
+      "mutual_h": 1.2326491501449444e-05,
+      "k": 0.7902225057466086,
+      "rtx_ohm": 0.09284699619718041,
+      "rrx_ohm": 0.06474803966727871,
+      "mutual_impedance_real_ohm": 0.01928205155930399,
+      "reciprocity_relative_error": 1.5864858432655684e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_4_f_150000_tx.fem",
+          "sha256": "a8747e424ef8f3c919bb295ce39e6f57f9248d1b32dd3e8d2514b09f2dd81558"
+        },
+        {
+          "path": "results\\femm\\gap_4_f_150000_tx.ans",
+          "sha256": "6fce27d6598f5fadd1c6ec6f070a48d2c028c9d6dd6845e744fdc62040f680e1"
+        },
+        {
+          "path": "results\\femm\\gap_4_f_150000_rx.fem",
+          "sha256": "264048fd2783b628ea5920a225b3b0aaf26814ae382b9d71fe1c4e990269a838"
+        },
+        {
+          "path": "results\\femm\\gap_4_f_150000_rx.ans",
+          "sha256": "12d7f50af0348da5fe274f40c572008ce97ce052764493af65491f9e01f77520"
+        }
+      ]
+    },
+    {
+      "name": "gap_4_f_205000",
+      "gap_mm": 4.0,
+      "frequency_hz": 205000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 2.095697548902743e-05,
+      "lrx_h": 1.160992152838e-05,
+      "mutual_h": 1.232623161323071e-05,
+      "k": 0.7902261170997421,
+      "rtx_ohm": 0.1229566493981769,
+      "rrx_ohm": 0.0808805708691119,
+      "mutual_impedance_real_ohm": 0.03503055519150112,
+      "reciprocity_relative_error": 1.5864417333219102e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_4_f_205000_tx.fem",
+          "sha256": "d2292f3fa58c675f3e006a42403f95152fd8c557258b3b508c7fab25695f4765"
+        },
+        {
+          "path": "results\\femm\\gap_4_f_205000_tx.ans",
+          "sha256": "b0955e58bc9b51834827b8230b37c642a51692d0e1230923b2a0d4ceca8618aa"
+        },
+        {
+          "path": "results\\femm\\gap_4_f_205000_rx.fem",
+          "sha256": "5bd7957d03dcc35d817eb22ab24bee40b398ae70b86705d8a79fa4a5a3a49bc1"
+        },
+        {
+          "path": "results\\femm\\gap_4_f_205000_rx.ans",
+          "sha256": "e99d0822779f471d46a79b965473787228427d6631fc1648f895627c1b5a9810"
+        }
+      ]
+    },
+    {
+      "name": "gap_6_f_110000",
+      "gap_mm": 6.0,
+      "frequency_hz": 110000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.832309230112276e-05,
+      "lrx_h": 9.757022760074671e-06,
+      "mutual_h": 9.134542037575696e-06,
+      "k": 0.6831699183995037,
+      "rtx_ohm": 0.07110189450105266,
+      "rrx_ohm": 0.05258570118795727,
+      "mutual_impedance_real_ohm": 0.006465879126773938,
+      "reciprocity_relative_error": 1.418038788282367e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_6_f_110000_tx.fem",
+          "sha256": "9dcf925be45646c58e072988f6853d6929cd2f5619265d3fc8c24ddae7fe0eab"
+        },
+        {
+          "path": "results\\femm\\gap_6_f_110000_tx.ans",
+          "sha256": "55fc8493678b1af6c8d6350591d65255898599ea41f5c74e98d3121dca7c2599"
+        },
+        {
+          "path": "results\\femm\\gap_6_f_110000_rx.fem",
+          "sha256": "a188896cc35d9ea2853cb6a25334c16c042124a556f50dfd4689b7601b60bce0"
+        },
+        {
+          "path": "results\\femm\\gap_6_f_110000_rx.ans",
+          "sha256": "4f9e196e6883ac8ae90bf72de1ee48e72ee33826f243027525f1cca07e540e7f"
+        }
+      ]
+    },
+    {
+      "name": "gap_6_f_150000",
+      "gap_mm": 6.0,
+      "frequency_hz": 150000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.832287929203672e-05,
+      "lrx_h": 9.756915058671591e-06,
+      "mutual_h": 9.134463125036897e-06,
+      "k": 0.6831717580899993,
+      "rtx_ohm": 0.08291475227850392,
+      "rrx_ohm": 0.05853440268681932,
+      "mutual_impedance_real_ohm": 0.01158207243770166,
+      "reciprocity_relative_error": 1.4180179617029171e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_6_f_150000_tx.fem",
+          "sha256": "799e02825235ae33ec604d97c42c87e43aa2fb3422bee6334ed953d9b31e0f5a"
+        },
+        {
+          "path": "results\\femm\\gap_6_f_150000_tx.ans",
+          "sha256": "dcfaa33f4b902c522d9cf2d5bc18e4be77f395c87504efbfade2351043148059"
+        },
+        {
+          "path": "results\\femm\\gap_6_f_150000_rx.fem",
+          "sha256": "67628fd3501f216f6dbe93edec923d8edc376d7bd93c67a6c4ea26ea8d33dcf1"
+        },
+        {
+          "path": "results\\femm\\gap_6_f_150000_rx.ans",
+          "sha256": "5453c09749ab0f371d1a0fa73560c99aed061ef3c63e4428776b9616b537743e"
+        }
+      ]
+    },
+    {
+      "name": "gap_6_f_205000",
+      "gap_mm": 6.0,
+      "frequency_hz": 205000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.832248031197835e-05,
+      "lrx_h": 9.756713301235104e-06,
+      "mutual_h": 9.13431545023098e-06,
+      "k": 0.6831752149512971,
+      "rtx_ohm": 0.1048357399722974,
+      "rrx_ohm": 0.0695699127925751,
+      "mutual_impedance_real_ohm": 0.02102218402353767,
+      "reciprocity_relative_error": 1.4179788740125783e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_6_f_205000_tx.fem",
+          "sha256": "51d5481d680e3c1deb480eb3be3480cdfd8f23a446f5f730a02d2e3ca41c4335"
+        },
+        {
+          "path": "results\\femm\\gap_6_f_205000_tx.ans",
+          "sha256": "0885c387967b710d545fd5774cbc9ed59c4fae84dfadc9c647246d9949a26873"
+        },
+        {
+          "path": "results\\femm\\gap_6_f_205000_rx.fem",
+          "sha256": "00a60acf882a00a00efbecbf38b2bdfcac4433777ccbd370e95b775cdb7b3cee"
+        },
+        {
+          "path": "results\\femm\\gap_6_f_205000_rx.ans",
+          "sha256": "242dc9bf1bfba1c14960bfd93fa3fbee3bbc0550219285df8f5b5305428e5e11"
+        }
+      ]
+    },
+    {
+      "name": "gap_8_f_110000",
+      "gap_mm": 8.0,
+      "frequency_hz": 110000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.69068685370185e-05,
+      "lrx_h": 8.79715955596991e-06,
+      "mutual_h": 7.073297298806172e-06,
+      "k": 0.5799881094646613,
+      "rtx_ohm": 0.06860710874242143,
+      "rrx_ohm": 0.05115834571962517,
+      "mutual_impedance_real_ohm": 0.004456055141174208,
+      "reciprocity_relative_error": 1.2685893286183784e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_8_f_110000_tx.fem",
+          "sha256": "48e29005e04374242cf893003f0375905ff2e70420b8eceddd004f57e93319e6"
+        },
+        {
+          "path": "results\\femm\\gap_8_f_110000_tx.ans",
+          "sha256": "cc8fab3c8cbc4adf30a4c6b0ae13d1ebad1596cfd9c1d145f5fb40a0dbd5f40d"
+        },
+        {
+          "path": "results\\femm\\gap_8_f_110000_rx.fem",
+          "sha256": "021d5d55e107ad0161043911db4f32fdb343afb486216616a199ab4f0f334ade"
+        },
+        {
+          "path": "results\\femm\\gap_8_f_110000_rx.ans",
+          "sha256": "55212b25d1e3209adde05123035ccf24874cf310d625d4523518c8c3725bf4d0"
+        }
+      ]
+    },
+    {
+      "name": "gap_8_f_150000",
+      "gap_mm": 8.0,
+      "frequency_hz": 150000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.690668867614812e-05,
+      "lrx_h": 8.797070913803486e-06,
+      "mutual_h": 7.073244486903157e-06,
+      "k": 0.5799897861707168,
+      "rtx_ohm": 0.07842226383999583,
+      "rrx_ohm": 0.05597710295046155,
+      "mutual_impedance_real_ohm": 0.00797975488700005,
+      "reciprocity_relative_error": 1.2685705745161043e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_8_f_150000_tx.fem",
+          "sha256": "b3ea5c9620058856d7fc33eec067ac36aecb4871e75471a0c2506a147e0ac38f"
+        },
+        {
+          "path": "results\\femm\\gap_8_f_150000_tx.ans",
+          "sha256": "a490091fa197ad7994fbe54c1741da7b579d4d6e9b2f5c42abd9cdead4796136"
+        },
+        {
+          "path": "results\\femm\\gap_8_f_150000_rx.fem",
+          "sha256": "4b7cfe1d07f035b485aeb0b7070b50ea422f0b891b17641c0e7983d974049bef"
+        },
+        {
+          "path": "results\\femm\\gap_8_f_150000_rx.ans",
+          "sha256": "d51a13946639e1c18dc5dfd24be16d2d32cc5c44aa3eab62a9514021ec61726e"
+        }
+      ]
+    },
+    {
+      "name": "gap_8_f_205000",
+      "gap_mm": 8.0,
+      "frequency_hz": 205000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.69063517093241e-05,
+      "lrx_h": 8.796904813249656e-06,
+      "mutual_h": 7.073145637015614e-06,
+      "k": 0.5799929361443472,
+      "rtx_ohm": 0.0966478609246652,
+      "rrx_ohm": 0.0649275925154225,
+      "mutual_impedance_real_ohm": 0.01448069981645888,
+      "reciprocity_relative_error": 1.268535377252845e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_8_f_205000_tx.fem",
+          "sha256": "d03953a282299b199ccea76dabd6663d2ad99bd280f62c8fb1d4150232c5c51e"
+        },
+        {
+          "path": "results\\femm\\gap_8_f_205000_tx.ans",
+          "sha256": "d1e9273e69f1c31c6d2f155241263e810d864aec7f3ade80152ba77d753d48fd"
+        },
+        {
+          "path": "results\\femm\\gap_8_f_205000_rx.fem",
+          "sha256": "87e616b14f061cdbe6eabcb79c78a3d3dbacd0eb49239827fcadcb64f54190c4"
+        },
+        {
+          "path": "results\\femm\\gap_8_f_205000_rx.ans",
+          "sha256": "b518e5aff27dcd7038b256140986e5d4ac5a25a944e618956e2fd4d3e0747734"
+        }
+      ]
+    },
+    {
+      "name": "gap_9.1_f_110000",
+      "gap_mm": 9.1,
+      "frequency_hz": 110000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.640544167603361e-05,
+      "lrx_h": 8.465222357041447e-06,
+      "mutual_h": 6.217196860353492e-06,
+      "k": 0.5275716747558387,
+      "rtx_ohm": 0.06778632039441074,
+      "rrx_ohm": 0.05071658182085339,
+      "mutual_impedance_real_ohm": 0.003754793890095739,
+      "reciprocity_relative_error": 1.1972964434857749e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_9.1_f_110000_tx.fem",
+          "sha256": "ac436864feec7ecf890d5797888088b6f43d48222ca3ded10532ed879be2c500"
+        },
+        {
+          "path": "results\\femm\\gap_9.1_f_110000_tx.ans",
+          "sha256": "18960df26b957edc2b2ecfcac9f68068ed20dbc265e32453cae22e53c10ea459"
+        },
+        {
+          "path": "results\\femm\\gap_9.1_f_110000_rx.fem",
+          "sha256": "f28770e0e442b47108a60e24b90b3e68df30a1b24e1ad8ddc009340074f374b9"
+        },
+        {
+          "path": "results\\femm\\gap_9.1_f_110000_rx.ans",
+          "sha256": "3e4fd3537ab30e4ab3ebc11c6df816dfe66c687f0204bd3c6631651ef894b062"
+        }
+      ]
+    },
+    {
+      "name": "gap_9.1_f_205000",
+      "gap_mm": 9.1,
+      "frequency_hz": 205000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.640495520026102e-05,
+      "lrx_h": 8.464983916243702e-06,
+      "mutual_h": 6.217070315065858e-06,
+      "k": 0.5275761888616621,
+      "rtx_ohm": 0.09395497151768195,
+      "rrx_ohm": 0.06349560708050629,
+      "mutual_impedance_real_ohm": 0.01220215586110499,
+      "reciprocity_relative_error": 1.1972448719248155e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_9.1_f_205000_tx.fem",
+          "sha256": "c7e93ce6133720e0bd137ed11d3dc0790475c6836de61954ceafc93a76409c29"
+        },
+        {
+          "path": "results\\femm\\gap_9.1_f_205000_tx.ans",
+          "sha256": "398fba151cd836e613e9873202f93239e5c1d080e22ca82a5c9e1f828fbebfe4"
+        },
+        {
+          "path": "results\\femm\\gap_9.1_f_205000_rx.fem",
+          "sha256": "d4eb29f9ed77a6531fb0c0579ec659d2b2e485f503d7b24577452b892d50b016"
+        },
+        {
+          "path": "results\\femm\\gap_9.1_f_205000_rx.ans",
+          "sha256": "b82fb02dc3e9f366d28ecc68010323c053ce11d9344024c38e9f1f9a15c239f8"
+        }
+      ]
+    },
+    {
+      "name": "gap_10_f_110000",
+      "gap_mm": 10.0,
+      "frequency_hz": 110000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.608403303804175e-05,
+      "lrx_h": 8.253919965394283e-06,
+      "mutual_h": 5.616361403495713e-06,
+      "k": 0.48744704414174655,
+      "rtx_ohm": 0.06728245971067252,
+      "rrx_ohm": 0.05045412217029344,
+      "mutual_impedance_real_ohm": 0.00330066405770285,
+      "reciprocity_relative_error": 1.146922050683279e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_10_f_110000_tx.fem",
+          "sha256": "fdbf0775e35a4cc3222c8048403b1d5289866361491aacbfeef0306d31e38701"
+        },
+        {
+          "path": "results\\femm\\gap_10_f_110000_tx.ans",
+          "sha256": "9030bdcfcd12a56c6885b877f5ac4264e8c6910c7ab256e10071b63fb92138fa"
+        },
+        {
+          "path": "results\\femm\\gap_10_f_110000_rx.fem",
+          "sha256": "7abc2beccaf1e41462389a40b9f39a83ef9631c4d8a7cf3d8a87cd8a84d650b2"
+        },
+        {
+          "path": "results\\femm\\gap_10_f_110000_rx.ans",
+          "sha256": "1eac24c9c9b64355c32162a4d21a1dc20f2c970bff8b15f2e9fa49f9aa8338db"
+        }
+      ]
+    },
+    {
+      "name": "gap_10_f_150000",
+      "gap_mm": 10.0,
+      "frequency_hz": 150000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.608387015953019e-05,
+      "lrx_h": 8.253840327580136e-06,
+      "mutual_h": 5.616322914690095e-06,
+      "k": 0.48744852337466926,
+      "rtx_ohm": 0.07603774493375409,
+      "rrx_ohm": 0.05471838028107941,
+      "mutual_impedance_real_ohm": 0.005911265770970879,
+      "reciprocity_relative_error": 1.1469047056065448e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_10_f_150000_tx.fem",
+          "sha256": "73e4d3e4f2f856d8dd55453e4f2ec183e14da389fe0dac5b90db4642606b5c8b"
+        },
+        {
+          "path": "results\\femm\\gap_10_f_150000_tx.ans",
+          "sha256": "e637c9e672eb7186340071a659fec1c5221295688dbd1223d0193fd0ded11ba5"
+        },
+        {
+          "path": "results\\femm\\gap_10_f_150000_rx.fem",
+          "sha256": "cb773fa233113abf3e8278f367d673f6a7ca972856098f2da87d25ec1cea4291"
+        },
+        {
+          "path": "results\\femm\\gap_10_f_150000_rx.ans",
+          "sha256": "f0d66ed661e611a349095409954b99c7c8c4e9dd532d623d2177adf57fcbf3ab"
+        }
+      ]
+    },
+    {
+      "name": "gap_10_f_205000",
+      "gap_mm": 10.0,
+      "frequency_hz": 205000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.608356497012766e-05,
+      "lrx_h": 8.253691075671519e-06,
+      "mutual_h": 5.616250865347269e-06,
+      "k": 0.48745130199830505,
+      "rtx_ohm": 0.09230307037407376,
+      "rrx_ohm": 0.06264685963570917,
+      "mutual_impedance_real_ohm": 0.01072787479755317,
+      "reciprocity_relative_error": 1.14687215289445e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_10_f_205000_tx.fem",
+          "sha256": "129fad41644b2479958ea90573529b49f551c5bc2bf75e048f81e1aa796c0f82"
+        },
+        {
+          "path": "results\\femm\\gap_10_f_205000_tx.ans",
+          "sha256": "a67c5a0988bca616ec2c31b9061b617d3d22689ed4350a17d90b281940641eec"
+        },
+        {
+          "path": "results\\femm\\gap_10_f_205000_rx.fem",
+          "sha256": "bbf303e5cea60ebbbb7f947cb18196118f7a0fe0efc0826fba41b7d4d19c5fe6"
+        },
+        {
+          "path": "results\\femm\\gap_10_f_205000_rx.ans",
+          "sha256": "5b1bd958b00b4ec433d2744a9af7fb2e00a26ab28df8de96d9f3e30502fc4a1b"
+        }
+      ]
+    },
+    {
+      "name": "gap_12_f_110000",
+      "gap_mm": 12.0,
+      "frequency_hz": 110000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.558356339632872e-05,
+      "lrx_h": 7.930358450832984e-06,
+      "mutual_h": 4.5366055589760165e-06,
+      "k": 0.40808555813297587,
+      "rtx_ohm": 0.06652799890477142,
+      "rrx_ohm": 0.05007433369047572,
+      "mutual_impedance_real_ohm": 0.002558233160632128,
+      "reciprocity_relative_error": 1.0551524614039536e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_12_f_110000_tx.fem",
+          "sha256": "5fb8faf65ec384e6edd2899bec156e067aef5923d13d4c14ef9b72ce3bff73aa"
+        },
+        {
+          "path": "results\\femm\\gap_12_f_110000_tx.ans",
+          "sha256": "e0004032a3da12fe246877f8692a1abe59ec03383352a260cfca471053e00944"
+        },
+        {
+          "path": "results\\femm\\gap_12_f_110000_rx.fem",
+          "sha256": "3aee6f6fd03d8025888be1ba29b6470c2386a282f7be65b9ec919d247d104a17"
+        },
+        {
+          "path": "results\\femm\\gap_12_f_110000_rx.ans",
+          "sha256": "d243a04c915f355078fff23cc5901bb29efb0c18fb798fdea68e1340b15180a9"
+        }
+      ]
+    },
+    {
+      "name": "gap_12_f_150000",
+      "gap_mm": 12.0,
+      "frequency_hz": 150000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.558340998144668e-05,
+      "lrx_h": 7.93028353103449e-06,
+      "mutual_h": 4.536576010935309e-06,
+      "k": 0.4080868365502445,
+      "rtx_ohm": 0.07468024241708031,
+      "rrx_ohm": 0.05404092244292623,
+      "mutual_impedance_real_ohm": 0.004583136748266649,
+      "reciprocity_relative_error": 1.055136123550728e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_12_f_150000_tx.fem",
+          "sha256": "ed50742a0739348eb7698a8275f53720dee199abb23099005ec3460de10fab81"
+        },
+        {
+          "path": "results\\femm\\gap_12_f_150000_tx.ans",
+          "sha256": "df9509ef5640b27e96870cd73b500c1eb80d2fb38d2cda18e214ac468cfdab6f"
+        },
+        {
+          "path": "results\\femm\\gap_12_f_150000_rx.fem",
+          "sha256": "c2e3997e14f46ec8c69173a3e2cbda418f5bd9c60c2e014daa77809be47fd081"
+        },
+        {
+          "path": "results\\femm\\gap_12_f_150000_rx.ans",
+          "sha256": "32887859f308140513ef926333e1f3d2ab831e14b5f694e98a8b4e8320fdc4a5"
+        }
+      ]
+    },
+    {
+      "name": "gap_12_f_205000",
+      "gap_mm": 12.0,
+      "frequency_hz": 205000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 2000.0,
+      "ltx_h": 1.558312250265338e-05,
+      "lrx_h": 7.930143108093986e-06,
+      "mutual_h": 4.536520694017639e-06,
+      "k": 0.4080892377451137,
+      "rtx_ohm": 0.08983044896628577,
+      "rrx_ohm": 0.06142130588847607,
+      "mutual_impedance_real_ohm": 0.00831974645672895,
+      "reciprocity_relative_error": 1.0551054600645534e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\gap_12_f_205000_tx.fem",
+          "sha256": "6ca3d6edf160cd36c2be9743ad504ee7b6f809d4b102e515e54c2948069ceb8a"
+        },
+        {
+          "path": "results\\femm\\gap_12_f_205000_tx.ans",
+          "sha256": "3b7af8130292408c340b4105adc25c8b1ce9b177bd943683514611477c5653cd"
+        },
+        {
+          "path": "results\\femm\\gap_12_f_205000_rx.fem",
+          "sha256": "b584e0648802ec9fa1e91344d510afaa477559c655ea54eca0eb18af0cd3b1d6"
+        },
+        {
+          "path": "results\\femm\\gap_12_f_205000_rx.ans",
+          "sha256": "b209c1b57eb51fb8959915fcebf600254d61166fed597119064d35e29a5fa689"
+        }
+      ]
+    },
+    {
+      "name": "mu_1000",
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 1000,
+      "ltx_h": 1.632642935761557e-05,
+      "lrx_h": 8.428844252820275e-06,
+      "mutual_h": 6.174573981778479e-06,
+      "k": 0.526353332919358,
+      "rtx_ohm": 0.07801488724467333,
+      "rrx_ohm": 0.05568813752167513,
+      "mutual_impedance_real_ohm": 0.007315744693786763,
+      "reciprocity_relative_error": 1.2007298761098564e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\mu_1000_tx.fem",
+          "sha256": "799af36f7eecaf1625c2837448454a9f8a10b99969385df57d28d350c437eab3"
+        },
+        {
+          "path": "results\\femm\\mu_1000_tx.ans",
+          "sha256": "eaa812ab6746afd9a76222fdc54c98967444a2dd2f5fca55989e30d3e4fa6060"
+        },
+        {
+          "path": "results\\femm\\mu_1000_rx.fem",
+          "sha256": "d5a2146f960017a32a58ca14a535458eaede39fea1a6c8542d2715912aefa8ac"
+        },
+        {
+          "path": "results\\femm\\mu_1000_rx.ans",
+          "sha256": "1f1d70a5c13b68e743a7421976f592ae36b50706ddd7f3f15290e272c79142df"
+        }
+      ]
+    },
+    {
+      "name": "mu_3000",
+      "gap_mm": 9.1,
+      "frequency_hz": 150000.0,
+      "ferrite": true,
+      "mesh_mm": 0.3,
+      "boundary_mm": 150,
+      "assumed_mu_r": 3000,
+      "ltx_h": 1.643190485216416e-05,
+      "lrx_h": 8.477385502871126e-06,
+      "mutual_h": 6.231544168566753e-06,
+      "k": 0.5279839921477553,
+      "rtx_ohm": 0.07657747462462514,
+      "rrx_ohm": 0.05501574455135966,
+      "mutual_impedance_real_ohm": 0.006520975054236833,
+      "reciprocity_relative_error": 1.1961168769377459e-05,
+      "artifacts": [
+        {
+          "path": "results\\femm\\mu_3000_tx.fem",
+          "sha256": "e06d07f5236de8c9a3f04c80224d99a2f9976ecd9b97253431f32cc78259a620"
+        },
+        {
+          "path": "results\\femm\\mu_3000_tx.ans",
+          "sha256": "7397ed671ef20ac8c2f9d738bfb30184f1a2bc84ffbfdc4adcc6bdffc8b7ffee"
+        },
+        {
+          "path": "results\\femm\\mu_3000_rx.fem",
+          "sha256": "c64faa49980f7502faec38dce47dc4c4192ca16f33917047c27769473bf509d3"
+        },
+        {
+          "path": "results\\femm\\mu_3000_rx.ans",
+          "sha256": "af327c37983e8df18f9b223a314865904141fe0ba77c1eef1fced304ebc1e7a7"
+        }
+      ]
+    }
+  ]
+}

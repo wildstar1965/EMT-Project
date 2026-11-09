@@ -1,0 +1,57 @@
+AirDesk series-series resonant WPT -- assumed devices, no Qi protocol
+* L/M/R from FEMM. Ferrite/mutual loss approximations documented in study.json.
+* Driver and switching network are representative models, not qualified parts.
+.param F=205000 VB=7.41796875 RL=5
+.param RT=0.11079117989 RR=0.0762422476878 ESR=0.025
+VBUS bus 0 {VB}
+Rdriver bus 0 1200
+VGA ga 0 PULSE(0 10 1u 10n 10n {0.5/F-1e-07} {1/F})
+VGB gb 0 PULSE(0 10 {1u+0.5/F} 10n 10n {0.5/F-1e-07} {1/F})
+S1 bus left ga 0 POWER
+S2 left 0 gb 0 POWER
+S3 bus right gb 0 POWER
+S4 right 0 ga 0 POWER
+.model POWER SW(Ron=0.04 Roff=1G Vt=5 Vh=0)
+D5 left bus BODY
+D6 0 left BODY
+D7 right bus BODY
+D8 0 right BODY
+.model BODY D(Is=1n Rs=0.025 N=1.2 Cjo=200p Tt=20n BV=60)
+Coss1 bus left 200p
+Coss2 left 0 200p
+Coss3 bus right 200p
+Coss4 right 0 200p
+CPT left tx 6.86237267407e-08 Rser={ESR}
+LTX tx right 1.69063517093e-05 Rser={RT}
+LRX rx 0 8.79690481325e-06 Rser={RR}
+KLINK LTX LRX 0.579992936144
+CSR rx ac 1.32991422483e-07 Rser={ESR}
+D1 ac outp RECT
+D2 0 outp RECT
+D3 outn ac RECT
+D4 outn 0 RECT
+.model RECT D(Is=20u Rs=0.035 N=1.1 Cjo=200p BV=40)
+COUT outp outn 0.0001 Rser=0.03
+RLOAD outp outn {RL}
+RREF outn 0 1G
+.options plotwinsize=0
+.save V(outp) V(outn) V(bus) V(tx) V(right) V(left) V(ac) I(LTX) I(LRX) I(VBUS) I(COUT) V(ga) V(gb)
+.save I(S1) I(S2) I(S3) I(S4) I(D1) I(D2) I(D3) I(D4) I(D5) I(D6) I(D7) I(D8)
+.tran 0 8m 0 {1/(F*80)}
+.meas tran vout AVG V(outp,outn) FROM=6m TO=8m
+.meas tran vout_previous AVG V(outp,outn) FROM=4m TO=6m
+.meas tran ripple PP V(outp,outn) FROM=6m TO=8m
+.meas tran pin AVG (-V(bus)*I(VBUS)) FROM=6m TO=8m
+.meas tran pout AVG (V(outp,outn)*V(outp,outn)/RL) FROM=6m TO=8m
+.meas tran itx RMS I(LTX) FROM=6m TO=8m
+.meas tran irx RMS I(LRX) FROM=6m TO=8m
+.meas tran vtx_peak MAX abs(V(tx,right)) FROM=6m TO=8m
+.meas tran copper_core_loss AVG (I(LTX)*I(LTX)*RT+I(LRX)*I(LRX)*RR) FROM=6m TO=8m
+.meas tran capacitor_loss AVG (I(LTX)*I(LTX)*ESR+I(LRX)*I(LRX)*ESR+I(COUT)*I(COUT)*0.03) FROM=6m TO=8m
+* I(S) reference direction is reversed in exported data; conduction loss uses I^2 Ron.
+* Off-state leakage with Roff=1G is below one microwatt at the allowed supply.
+.meas tran switch_loss AVG ((I(S1)*I(S1)+I(S2)*I(S2)+I(S3)*I(S3)+I(S4)*I(S4))*0.04) FROM=6m TO=8m
+.meas tran rectifier_loss AVG (V(ac,outp)*I(D1)-V(outp)*I(D2)+V(outn,ac)*I(D3)+V(outn)*I(D4)) FROM=6m TO=8m
+.meas tran body_loss AVG (V(left,bus)*I(D5)-V(left)*I(D6)+V(right,bus)*I(D7)-V(right)*I(D8)) FROM=6m TO=8m
+.meas tran driver_loss AVG (V(bus)*V(bus)/1200) FROM=6m TO=8m
+.end

@@ -1,0 +1,350 @@
+{
+  "stage": "01_frame",
+  "passed": true,
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "fusion_version": "2706.1.17",
+  "bodies": [
+    {
+      "component": "UpperFront",
+      "body": "UpperFront",
+      "min_mm": [
+        -300.0,
+        -200.0,
+        -25.0
+      ],
+      "max_mm": [
+        300.0,
+        -180.0,
+        -5.0
+      ],
+      "volume_cm3": 240.0,
+      "is_solid": true
+    },
+    {
+      "component": "UpperRear",
+      "body": "UpperRear",
+      "min_mm": [
+        -300.0,
+        180.0,
+        -25.0
+      ],
+      "max_mm": [
+        300.0,
+        200.0,
+        -5.0
+      ],
+      "volume_cm3": 240.0,
+      "is_solid": true
+    },
+    {
+      "component": "UpperLeft",
+      "body": "UpperLeft",
+      "min_mm": [
+        -300.0,
+        -180.0,
+        -25.0
+      ],
+      "max_mm": [
+        -280.0,
+        180.0,
+        -5.0
+      ],
+      "volume_cm3": 144.0,
+      "is_solid": true
+    },
+    {
+      "component": "UpperRight",
+      "body": "UpperRight",
+      "min_mm": [
+        280.0,
+        -180.0,
+        -25.0
+      ],
+      "max_mm": [
+        300.0,
+        180.0,
+        -5.0
+      ],
+      "volume_cm3": 144.0,
+      "is_solid": true
+    },
+    {
+      "component": "LowerFront",
+      "body": "LowerFront",
+      "min_mm": [
+        -300.0,
+        -200.0,
+        -200.0
+      ],
+      "max_mm": [
+        300.0,
+        -180.0,
+        -180.0
+      ],
+      "volume_cm3": 240.0,
+      "is_solid": true
+    },
+    {
+      "component": "LowerRear",
+      "body": "LowerRear",
+      "min_mm": [
+        -300.0,
+        180.0,
+        -200.0
+      ],
+      "max_mm": [
+        300.0,
+        200.0,
+        -180.0
+      ],
+      "volume_cm3": 240.0,
+      "is_solid": true
+    },
+    {
+      "component": "LowerLeft",
+      "body": "LowerLeft",
+      "min_mm": [
+        -300.0,
+        -180.0,
+        -200.0
+      ],
+      "max_mm": [
+        -280.0,
+        180.0,
+        -180.0
+      ],
+      "volume_cm3": 144.0,
+      "is_solid": true
+    },
+    {
+      "component": "LowerRight",
+      "body": "LowerRight",
+      "min_mm": [
+        280.0,
+        -180.0,
+        -200.0
+      ],
+      "max_mm": [
+        300.0,
+        180.0,
+        -180.0
+      ],
+      "volume_cm3": 144.0,
+      "is_solid": true
+    },
+    {
+      "component": "Leg_0_0",
+      "body": "Leg_0_0",
+      "min_mm": [
+        -300.0,
+        -200.0,
+        -180.0
+      ],
+      "max_mm": [
+        -280.0,
+        -180.0,
+        -25.0
+      ],
+      "volume_cm3": 62.0,
+      "is_solid": true
+    },
+    {
+      "component": "Leg_0_1",
+      "body": "Leg_0_1",
+      "min_mm": [
+        -300.0,
+        180.0,
+        -180.0
+      ],
+      "max_mm": [
+        -280.0,
+        200.0,
+        -25.0
+      ],
+      "volume_cm3": 62.0,
+      "is_solid": true
+    },
+    {
+      "component": "Leg_1_0",
+      "body": "Leg_1_0",
+      "min_mm": [
+        280.0,
+        -200.0,
+        -180.0
+      ],
+      "max_mm": [
+        300.0,
+        -180.0,
+        -25.0
+      ],
+      "volume_cm3": 62.0,
+      "is_solid": true
+    },
+    {
+      "component": "Leg_1_1",
+      "body": "Leg_1_1",
+      "min_mm": [
+        280.0,
+        180.0,
+        -180.0
+      ],
+      "max_mm": [
+        300.0,
+        200.0,
+        -25.0
+      ],
+      "volume_cm3": 62.0,
+      "is_solid": true
+    },
+    {
+      "component": "Tabletop",
+      "body": "Tabletop",
+      "min_mm": [
+        -300.0,
+        -200.0,
+        -5.0
+      ],
+      "max_mm": [
+        300.0,
+        200.0,
+        0.0
+      ],
+      "volume_cm3": 1200.0,
+      "is_solid": true
+    },
+    {
+      "component": "Left_RailSupport",
+      "body": "Left_RailSupport",
+      "min_mm": [
+        -265.0,
+        -175.0,
+        -92.00000000000001
+      ],
+      "max_mm": [
+        -245.0,
+        175.0,
+        -72.00000000000001
+      ],
+      "volume_cm3": 140.0,
+      "is_solid": true
+    },
+    {
+      "component": "Left_SupportBracket_-180",
+      "body": "Left_SupportBracket_-180",
+      "min_mm": [
+        -265.0,
+        -190.0,
+        -92.00000000000001
+      ],
+      "max_mm": [
+        -245.0,
+        -170.0,
+        -25.000000000000007
+      ],
+      "volume_cm3": 26.8,
+      "is_solid": true
+    },
+    {
+      "component": "Left_SupportBracket_180",
+      "body": "Left_SupportBracket_180",
+      "min_mm": [
+        -265.0,
+        170.0,
+        -92.00000000000001
+      ],
+      "max_mm": [
+        -245.0,
+        190.0,
+        -25.000000000000007
+      ],
+      "volume_cm3": 26.8,
+      "is_solid": true
+    },
+    {
+      "component": "Left_YRail",
+      "body": "Left_YRail",
+      "min_mm": [
+        -261.0,
+        -175.0,
+        -72.0
+      ],
+      "max_mm": [
+        -249.0,
+        175.0,
+        -62.0
+      ],
+      "volume_cm3": 42.0000000000001,
+      "is_solid": true
+    },
+    {
+      "component": "Right_RailSupport",
+      "body": "Right_RailSupport",
+      "min_mm": [
+        245.0,
+        -175.0,
+        -92.00000000000001
+      ],
+      "max_mm": [
+        265.0,
+        175.0,
+        -72.00000000000001
+      ],
+      "volume_cm3": 140.0,
+      "is_solid": true
+    },
+    {
+      "component": "Right_SupportBracket_-180",
+      "body": "Right_SupportBracket_-180",
+      "min_mm": [
+        245.0,
+        -190.0,
+        -92.00000000000001
+      ],
+      "max_mm": [
+        265.0,
+        -170.0,
+        -25.000000000000007
+      ],
+      "volume_cm3": 26.8,
+      "is_solid": true
+    },
+    {
+      "component": "Right_SupportBracket_180",
+      "body": "Right_SupportBracket_180",
+      "min_mm": [
+        245.0,
+        170.0,
+        -92.00000000000001
+      ],
+      "max_mm": [
+        265.0,
+        190.0,
+        -25.000000000000007
+      ],
+      "volume_cm3": 26.8,
+      "is_solid": true
+    },
+    {
+      "component": "Right_YRail",
+      "body": "Right_YRail",
+      "min_mm": [
+        249.0,
+        -175.0,
+        -72.0
+      ],
+      "max_mm": [
+        261.0,
+        175.0,
+        -62.0
+      ],
+      "volume_cm3": 42.0000000000001,
+      "is_solid": true
+    }
+  ],
+  "component_count": 22,
+  "tabletop_size_mm": [
+    600.0,
+    400.0,
+    5.0
+  ]
+}

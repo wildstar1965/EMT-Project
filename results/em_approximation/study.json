@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "kind": "air_core_offset_approximation",
+  "created_utc": "2026-11-06T10:56:24.928920+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "rows": [
+    {
+      "offset_mm": 0,
+      "gap_mm": 9.1,
+      "mutual_h": 2.2421326597902437e-06,
+      "absolute_refinement_change_h": 1.9481757786848908e-20,
+      "model": "air_core_filament_only"
+    },
+    {
+      "offset_mm": 2,
+      "gap_mm": 9.1,
+      "mutual_h": 2.2194245657394233e-06,
+      "absolute_refinement_change_h": 2.964615315390051e-21,
+      "model": "air_core_filament_only"
+    },
+    {
+      "offset_mm": 5,
+      "gap_mm": 9.1,
+      "mutual_h": 2.103361427119769e-06,
+      "absolute_refinement_change_h": 4.235164736271502e-22,
+      "model": "air_core_filament_only"
+    },
+    {
+      "offset_mm": 10,
+      "gap_mm": 9.1,
+      "mutual_h": 1.7295771516012595e-06,
+      "absolute_refinement_change_h": 2.117582368135751e-22,
+      "model": "air_core_filament_only"
+    },
+    {
+      "offset_mm": 15,
+      "gap_mm": 9.1,
+      "mutual_h": 1.2268356634383918e-06,
+      "absolute_refinement_change_h": 2.117582368135751e-22,
+      "model": "air_core_filament_only"
+    },
+    {
+      "offset_mm": 20,
+      "gap_mm": 9.1,
+      "mutual_h": 7.147370428449693e-07,
+      "absolute_refinement_change_h": 2.117582368135751e-22,
+      "model": "air_core_filament_only"
+    },
+    {
+      "offset_mm": 30,
+      "gap_mm": 9.1,
+      "mutual_h": 8.221759637308369e-09,
+      "absolute_refinement_change_h": 1.016604972827671e-20,
+      "model": "air_core_filament_only"
+    },
+    {
+      "offset_mm": 50,
+      "gap_mm": 9.1,
+      "mutual_h": -1.0246799597520727e-07,
+      "absolute_refinement_change_h": 0.0,
+      "model": "air_core_filament_only"
+    },
+    {
+      "offset_mm": 80,
+      "gap_mm": 9.1,
+      "mutual_h": -2.4675446246761457e-08,
+      "absolute_refinement_change_h": 3.308722450212111e-24,
+      "model": "air_core_filament_only"
+    }
+  ],
+  "valid_for_ferrite": false,
+  "tx_dc_resistance_ohm": 0.05657327586206895,
+  "rx_dc_resistance_ohm": 0.04525862068965516
+}

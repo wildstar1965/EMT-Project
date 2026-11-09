@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "kind": "electrical_operating_point",
+  "created_utc": "2026-11-06T12:54:20.250323+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "executed": true,
+  "passed": true,
+  "model": "FEMM aligned + LTspice assumed nonideal resonant link",
+  "offset_mm": 0.0,
+  "gap_mm": 9.1,
+  "nominal": {
+    "name": "nominal",
+    "supply_v": 7.41796875,
+    "gap_mm": 9.1,
+    "frequency_hz": 150000.0,
+    "load_ohm": 5.0,
+    "capacitance_scale": 1.0,
+    "resistance_scale": 1.0,
+    "measurements": {
+      "options": 0.0,
+      "vout": 5.01480455659,
+      "vout_previous": 5.01449748037,
+      "ripple": 0.0477712452412,
+      "pin": 6.07366544689,
+      "pout": 5.02969699403,
+      "itx": 0.901572559411,
+      "irx": 1.11655890997,
+      "vtx_peak": 27.5024130344,
+      "copper_core_loss": 0.156947210898,
+      "capacitor_loss": 0.0586227838444,
+      "switch_loss": 0.0654773017292,
+      "rectifier_loss": 0.713568560195,
+      "body_loss": 0.000311463084214,
+      "driver_loss": 0.0458552169802
+    },
+    "settled": true,
+    "time_step_refined": false,
+    "numerical_checks_passed": true,
+    "energy_balance_relative_error": 0.0005245458705034725,
+    "efficiency": 0.8281155816057402,
+    "artifacts": [
+      {
+        "path": "results\\ltspice\\nominal.cir",
+        "sha256": "c375d42ae70e9c63b6e704094938f2f2ecdd11d7f97aa6f7f191b103f14ccb58"
+      },
+      {
+        "path": "results\\ltspice\\nominal.log",
+        "sha256": "528c29bdbe9e49e3fdc978fc839f7fe7347eb566c8d836e77a66bf24c90d73bd"
+      },
+      {
+        "path": "results\\ltspice\\nominal.raw",
+        "sha256": "47aec681d4f21da955e38f9c175676c3bbac6926a236b38b678ac2efd986be45"
+      }
+    ]
+  },
+  "em_source": {
+    "path": "results\\femm\\study.json",
+    "sha256": "bd8b5b7811b1671cebbf57f4db66dd66e7f9d2855e9c90dc5c37d1618999f102"
+  },
+  "full_sweep": true,
+  "artifacts": [
+    {
+      "path": "results\\ltspice\\nominal.cir",
+      "sha256": "c375d42ae70e9c63b6e704094938f2f2ecdd11d7f97aa6f7f191b103f14ccb58"
+    },
+    {
+      "path": "results\\ltspice\\nominal.log",
+      "sha256": "528c29bdbe9e49e3fdc978fc839f7fe7347eb566c8d836e77a66bf24c90d73bd"
+    },
+    {
+      "path": "results\\ltspice\\nominal.raw",
+      "sha256": "47aec681d4f21da955e38f9c175676c3bbac6926a236b38b678ac2efd986be45"
+    },
+    {
+      "path": "results\\femm\\nominal_ac_tx.fem",
+      "sha256": "b9fbff1c2179d036a9e0be0c8567a03d700c01bb7abd555953de3742b55ce5c1"
+    },
+    {
+      "path": "results\\femm\\nominal_ac_tx.ans",
+      "sha256": "e5c1e544bd8279ccd643e89be944958220c08df91fdb28bf79891818198dd02b"
+    },
+    {
+      "path": "results\\femm\\nominal_ac_rx.fem",
+      "sha256": "ac23848a353585d13fb951ab173c768df590571665d3ad2371a4949ba9debf05"
+    },
+    {
+      "path": "results\\femm\\nominal_ac_rx.ans",
+      "sha256": "df85c79c521de1948b558268663dcf1b884fca3912fb72c85f35210e619ede9d"
+    },
+    {
+      "path": "results\\femm\\study.json",
+      "sha256": "bd8b5b7811b1671cebbf57f4db66dd66e7f9d2855e9c90dc5c37d1618999f102"
+    },
+    {
+      "path": "airdesk\\spice.py",
+      "sha256": "4c92551b32ab275d10967939ead11fb09469028efd588946094de7077cfaeb67"
+    },
+    {
+      "path": "airdesk\\femm_study.py",
+      "sha256": "01ca8f307c62823f2965d3af4dbff6f73235bdca47e2ca7d31eaa63d912a0a1d"
+    }
+  ],
+  "limitations": [
+    "One face-up virtual phone; no Qi protocol or real battery model",
+    "Assumed ferrite and semiconductor models, not qualified components",
+    "Axisymmetric EM excludes gantry and phone-metal eddy currents",
+    "Furniture loading and physical thermal validation are excluded",
+    "Open-loop supply tuned for a fixed load, not a regulated Qi charger",
+    "Efficiency is DC-bus to equivalent load; excludes wall adapter and gantry motors",
+    "Reduced magnetic-loss model ignores mutual dissipative impedance"
+  ]
+}

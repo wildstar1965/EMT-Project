@@ -1,0 +1,1 @@
+{"autodeskProduct":"Fusion360","type":"script","author":"AirDesk","description":{"":"Test native placement on the active AirDesk assembly and restore its original pose."},"version":"1.0.0","supportedOS":"windows|mac","editEnabled":true}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "kind": "analytical_mechanics",
+  "created_utc": "2026-11-06T10:43:51.055736+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "gap_mm": 9.1,
+  "plate_deflection": {
+    "self_weight_mm": 0.30128176359381287,
+    "phone_mm": 0.1404730015187863,
+    "total_mm": 0.4417547651125992
+  },
+  "residual_clearance_mm": 1.0582452348874007,
+  "command_resolution_mm": 0.0125,
+  "motor_speed_rpm": 150.0,
+  "required_running_torque_nm_with_margin": 0.07922379389463234,
+  "motor_selection_verified": false,
+  "assumptions": [
+    "Simply supported plate, centred uniformly distributed phone load",
+    "Linear small-deflection elastic analysis",
+    "Assumed moving mass and drag; no selected motor torque curve"
+  ]
+}

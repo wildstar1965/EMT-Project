@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "kind": "native_fusion_acceptance",
+  "created_utc": "2026-11-06T15:17:23.752627+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "passed": true,
+  "checks": {
+    "actual_fusion_selftest": true,
+    "original_pose_restored_after_selftest": true,
+    "viewport_selection_executed": true,
+    "actual_alignment_passed": true,
+    "existing_joints_and_geometry_preserved": true,
+    "electrical_evidence_used": true,
+    "python_tests": true
+  },
+  "test_counts": {
+    "tests": 29,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "fusion_version": "2706.1.17",
+  "phone_pose_mm_deg": [
+    -58.35150718688965,
+    -79.6133041381836,
+    0.0
+  ],
+  "alignment_error_mm": 4.0371620711508295e-08,
+  "power_w": 5.02969699403,
+  "interaction": "Native Place Phone -> tabletop Selection.point -> Move phone -> native status panel",
+  "ordinary_occurrence_drag_tracking": false,
+  "artifacts": [
+    {
+      "path": "results\\fusion\\native\\selftest.json",
+      "sha256": "68ed9c7c7955b9c5992747a5301e929752f36faf4ba001dc9f44b41cff6daaa9"
+    },
+    {
+      "path": "results\\fusion\\native\\last_command.json",
+      "sha256": "ac8feb1ec7c4784fa3c6b3d76be7f86aeee8b0ca3a2e4a7f81988c9fdb07b6d2"
+    },
+    {
+      "path": "results\\fusion\\native\\last_selection.json",
+      "sha256": "18cfc7b4f6c32376d18c982c22582fb9f34836477fdb10135c3c65da734ec19d"
+    },
+    {
+      "path": "results\\fusion\\native\\acceptance.png",
+      "sha256": "10badcf6cc92fbac5165d7d673494e5685f8b38fe1014fcd3887e2cb80e7e46c"
+    },
+    {
+      "path": "airdesk\\native_tracking.py",
+      "sha256": "4e5c48bd306fc69ad8e1cfd2f84fc1ccced6511128efb7d0f16c7e87d300e620"
+    },
+    {
+      "path": "fusion\\native_motion.py",
+      "sha256": "adc47af4df31b862a08d9b7fc5ecc628633b8c54a4df8dad275304d45c7d9d8c"
+    },
+    {
+      "path": "fusion\\native_command.py",
+      "sha256": "83b273a9cfbba1805a7e606160524e49a961cd4f2a136b9975552be02e93cd50"
+    },
+    {
+      "path": "fusion\\AirDeskNative\\AirDeskNative.py",
+      "sha256": "d47643e0de01e1f031f2e31850052c4ad49d090b88802a7f382a3dc9cd23e5e5"
+    },
+    {
+      "path": "fusion\\AirDeskNative\\status.html",
+      "sha256": "12eb81a89d9d75869685800faf6d9fbc40d9e974f6b61e7389a3bdd179a615b9"
+    },
+    {
+      "path": "results\\native_tests.xml",
+      "sha256": "ebc4efc250cd600979523ed4bc9aeb0f995109ee6e69c9ec0ba029dbe7da9a47"
+    }
+  ]
+}

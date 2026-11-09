@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "kind": "fusion_native_placement",
+  "created_utc": "2026-11-07T09:12:33.159140+00:00",
+  "config_sha256": "9d51d283db66cce211e9846785d3d4f17a032ab6f2ad9df9e59007911341c7ef",
+  "state": "CHARGING",
+  "power_w": 5.02969699403,
+  "alignment_error_mm": 0.0,
+  "gap_mm": 9.1,
+  "reason": "Simulated power into the 5 ohm load; no Qi or battery model",
+  "executed": true,
+  "fusion_version": "2706.1.17",
+  "phone_pose_mm_deg": [
+    30.0,
+    20.0,
+    0.0
+  ],
+  "target_mm": [
+    30.0,
+    20.0
+  ],
+  "measured_tx_mm": [
+    30.0,
+    20.0,
+    -7.6
+  ],
+  "measured_rx_mm": [
+    30.0,
+    20.0,
+    1.5000000000000002
+  ],
+  "topology_preserved": true,
+  "samples": [
+    {
+      "trajectory_time_s": 0.0,
+      "command_mm": [
+        30.0,
+        20.0
+      ],
+      "measured_tx_mm": [
+        30.0,
+        20.0,
+        -7.6
+      ],
+      "error_mm": 0.0
+    }
+  ],
+  "source_model": "FEMM aligned + LTspice assumed nonideal resonant link",
+  "operating_point": {
+    "path": "results\\operating_point.json",
+    "sha256": "b1da1e4d95ad202a8876b9e81f5f00f119f4c3a9786c1bd36835ad60072a84e8"
+  },
+  "interaction_source": "native_numeric_inputs"
+}

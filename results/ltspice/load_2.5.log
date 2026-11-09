@@ -1,0 +1,30 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\Users\tejar\OneDrive\Desktop\AIrdesk\results\ltspice\load_2.5.cir
+Start Time: Fri Nov  6 18:23:39 2026
+Options:plotwinsize=0
+solver = Normal
+Maximum thread count: 18
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 3.939 seconds.
+Total iterations: 957469
+
+Files loaded:
+C:\Users\tejar\OneDrive\Desktop\AIrdesk\results\ltspice\load_2.5.cir
+
+vout: AVG(V(outp,outn))=2.56132276047 FROM 0.006 TO 0.008
+vout_previous: AVG(V(outp,outn))=2.56132269894 FROM 0.004 TO 0.006
+ripple: PP(V(outp,outn))=0.0466043055058 FROM 0.006 TO 0.008
+pin: AVG(-V(bus)*I(VBUS))=3.5784847066 FROM 0.006 TO 0.008
+pout: AVG(V(outp,outn)*V(outp,outn)/RL)=2.62422887273 FROM 0.006 TO 0.008
+itx: RMS(I(LTX))=0.528857048522 FROM 0.006 TO 0.008
+irx: RMS(I(LRX))=1.12638812026 FROM 0.006 TO 0.008
+vtx_peak: MAX(abs(V(tx,right)))=20.2402992249 FROM 0.006 TO 0.008
+copper_core_loss: AVG(I(LTX)*I(LTX)*RT+I(LRX)*I(LRX)*RR)=0.10985046253 FROM 0.006 TO 0.008
+capacitor_loss: AVG(I(LTX)*I(LTX)*ESR+I(LRX)*I(LRX)*ESR+I(COUT)*I(COUT)*0.03)=0.0451240116508 FROM 0.006 TO 0.008
+switch_loss: AVG((I(S1)*I(S1)+I(S2)*I(S2)+I(S3)*I(S3)+I(S4)*I(S4))*0.04)=0.0225039003144 FROM 0.006 TO 0.008
+rectifier_loss: AVG(V(ac,outp)*I(D1)-V(outp)*I(D2)+V(outn,ac)*I(D3)+V(outn)*I(D4))=0.728776408885 FROM 0.006 TO 0.008
+body_loss: AVG(V(left,bus)*I(D5)-V(left)*I(D6)+V(right,bus)*I(D7)-V(right)*I(D8))=0.00152934370638 FROM 0.006 TO 0.008
+driver_loss: AVG(V(bus)*V(bus)/1200)=0.0458552169803 FROM 0.006 TO 0.008
